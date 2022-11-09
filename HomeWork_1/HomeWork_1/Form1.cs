@@ -26,9 +26,28 @@ namespace HomeWork_1
 		{
 			if (e.Button == MouseButtons.Left)
 			{
-				int width = e.Location.X - x,
-				height = e.Location.Y - y;
+				int width = 0, height = 0;
 
+				if (e.Location.X > x && e.Location.Y > y)
+				{
+					width = e.Location.X - x;
+					height = e.Location.Y - y;
+				}
+				else if (e.Location.X < x && e.Location.Y > y)
+				{
+					width = x - e.Location.X;
+					height = e.Location.Y - y;
+				}
+				else if(e.Location.X > x && e.Location.Y < y)
+				{
+					width = e.Location.X - x;
+					height = y - e.Location.Y;
+				}
+				else if(e.Location.X < x && e.Location.Y < y)
+				{
+					width = x - e.Location.X;
+					height = y - e.Location.Y;
+				}
 
 				if (width < 10 || height < 10)
 				{
@@ -41,7 +60,28 @@ namespace HomeWork_1
 
 
 				label.AutoSize = false;
-				label.Location = new Point(x,y);
+
+				if (e.Location.X > x && e.Location.Y > y)
+				{
+					label.Location = new Point(x, y);
+					label.relation = Relation.RightBottom;
+				}
+				else if (e.Location.X < x && e.Location.Y > y)
+				{
+					label.Location = new Point(e.Location.X, y);
+					label.relation = Relation.LeftBottom;
+				}
+				else if (e.Location.X > x && e.Location.Y < y)
+				{
+					label.Location = new Point(x, e.Location.Y);
+					label.relation = Relation.RightTop;
+				}
+				else if(e.Location.X < x && e.Location.Y < y)
+				{
+					label.Location = new Point(e.Location.X, e.Location.Y);
+					label.relation = Relation.LeftTop;
+				}
+
 
 
 				label.Name = $"label_{labels.Count + 1}";
@@ -52,11 +92,35 @@ namespace HomeWork_1
 				label.BackColor = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
 
 
-				label.LeftBound = x;
-				label.TopBound = y;
-				label.RightBound = e.Location.X;
-				label.BottomBound = e.Location.Y;
-
+				switch (label.relation)
+				{
+					case Relation.RightBottom:
+						label.LeftBound = x;
+						label.TopBound = y;
+						label.RightBound = e.Location.X;
+						label.BottomBound = e.Location.Y;
+						break;
+					case Relation.LeftBottom:
+						label.LeftBound = e.Location.X;
+						label.TopBound = y;
+						label.RightBound = x;
+						label.BottomBound = e.Location.Y;
+						break;
+					case Relation.LeftTop:
+						label.LeftBound = e.Location.X;
+						label.TopBound = e.Location.Y;
+						label.RightBound = x;
+						label.BottomBound = y;
+						break;
+					case Relation.RightTop:
+						label.LeftBound = x;
+						label.TopBound = e.Location.Y;
+						label.RightBound = e.Location.X;
+						label.BottomBound = y;
+						break;
+					default:
+						break;
+				}
 
 				label.IndexInControlCollection = this.Controls.Count;
 
@@ -64,7 +128,6 @@ namespace HomeWork_1
 				label.MouseClick += Label_MouseClick;
 				label.MouseDoubleClick += Label_MouseDoubleClick;
 				
-
 
 				labels.Add(label);
 				this.Controls.Add(label);
@@ -78,6 +141,7 @@ namespace HomeWork_1
 				ExtendedLabel tmp = (sender as ExtendedLabel);
 				int coord_x_form = tmp.Location.X + e.X;
 				int coord_y_form = tmp.Location.Y + e.Y;
+
 
 				int i = labels.Count - 1;
 				int? min = null;
