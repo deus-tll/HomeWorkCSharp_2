@@ -56,7 +56,7 @@ namespace Calculator
 						_number2.Append(SqrtNum);
 						return _number2.ToString();
 					}
-				case "*%":
+				case "x%":
 					return (Convert.ToDouble(_number2.ToString()) / 100).ToString();
 				case "-%":
 					return ((Convert.ToDouble(_number1.ToString()) / 100) * Convert.ToDouble(_number2.ToString())).ToString();

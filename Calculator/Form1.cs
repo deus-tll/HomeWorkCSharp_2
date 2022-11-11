@@ -89,7 +89,7 @@ namespace Calculator
 
 				if (lblOperator.Text == "-")
 					tmp = _calculator.Operation(lblOperator.Text + "%");
-				else if(lblOperator.Text == "*")
+				else if(lblOperator.Text == "x")
 					tmp = _calculator.Operation(lblOperator.Text + "%");
 
 				btnClear_Click(sender, e);
