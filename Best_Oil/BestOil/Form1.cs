@@ -15,6 +15,7 @@ namespace BestOil
 		public Form1()
 		{
 			InitializeComponent();
+			
 		}
 	}
 }
