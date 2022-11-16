@@ -1,6 +1,6 @@
 ﻿namespace BestOil
 {
-	partial class Form1
+	partial class CashierForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -28,15 +28,29 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CashierForm));
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.tlp_GroupGasStationAndMiniCafe = new System.Windows.Forms.TableLayoutPanel();
 			this.gb_GasStation = new System.Windows.Forms.GroupBox();
 			this.gb_GasStationPay = new System.Windows.Forms.GroupBox();
+			this.lbl3_grn = new System.Windows.Forms.Label();
 			this.lbl_GasStationAmount = new System.Windows.Forms.Label();
 			this.panel_GasStation = new System.Windows.Forms.Panel();
+			this.lbl1_grn = new System.Windows.Forms.Label();
+			this.gb_QuantityOrSum = new System.Windows.Forms.GroupBox();
+			this.lbl_Quantity = new System.Windows.Forms.Label();
+			this.lbl2_grn = new System.Windows.Forms.Label();
+			this.tb_Sum = new System.Windows.Forms.TextBox();
+			this.tb_Quantity = new System.Windows.Forms.TextBox();
+			this.rb_Sum = new System.Windows.Forms.RadioButton();
+			this.rb_Quantity = new System.Windows.Forms.RadioButton();
+			this.tb_PriceForFuel = new System.Windows.Forms.TextBox();
+			this.lbl_PriceForFuel = new System.Windows.Forms.Label();
+			this.lbl_Fuel = new System.Windows.Forms.Label();
+			this.comBx_ListOfGasolineTypes = new System.Windows.Forms.ComboBox();
 			this.gb_MiniCafe = new System.Windows.Forms.GroupBox();
 			this.gb_MiniCafePay = new System.Windows.Forms.GroupBox();
+			this.lbl4_grn = new System.Windows.Forms.Label();
 			this.lbl_MiniCafeAmount = new System.Windows.Forms.Label();
 			this.panel_MiniCafe = new System.Windows.Forms.Panel();
 			this.tlp_GroupTotalAmounts = new System.Windows.Forms.TableLayoutPanel();
@@ -46,26 +60,12 @@
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.btn_Count = new System.Windows.Forms.Button();
 			this.lbl_TotalAmount = new System.Windows.Forms.Label();
+			this.lbl5_grn = new System.Windows.Forms.Label();
 			this.gb_TotalIncome = new System.Windows.Forms.GroupBox();
 			this.panel_TotalIncome = new System.Windows.Forms.Panel();
-			this.lbl_TotalIncome = new System.Windows.Forms.Label();
-			this.comBx_ListOfGasolineTypes = new System.Windows.Forms.ComboBox();
-			this.lbl_Fuel = new System.Windows.Forms.Label();
-			this.lbl_PriceForFuel = new System.Windows.Forms.Label();
-			this.tb_PriceForFuel = new System.Windows.Forms.TextBox();
-			this.gb_QuantityOrSum = new System.Windows.Forms.GroupBox();
-			this.rb_Quantity = new System.Windows.Forms.RadioButton();
-			this.rb_Sum = new System.Windows.Forms.RadioButton();
-			this.tb_Quantity = new System.Windows.Forms.TextBox();
-			this.tb_Sum = new System.Windows.Forms.TextBox();
-			this.lbl1_grn = new System.Windows.Forms.Label();
-			this.lbl2_grn = new System.Windows.Forms.Label();
-			this.lbl_Quantity = new System.Windows.Forms.Label();
-			this.lbl3_grn = new System.Windows.Forms.Label();
-			this.lbl4_grn = new System.Windows.Forms.Label();
-			this.lbl6_grn = new System.Windows.Forms.Label();
-			this.lbl5_grn = new System.Windows.Forms.Label();
 			this.tlp_TotalIncome = new System.Windows.Forms.TableLayoutPanel();
+			this.lbl6_grn = new System.Windows.Forms.Label();
+			this.lbl_TotalIncome = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
 			this.splitContainer1.Panel2.SuspendLayout();
@@ -74,6 +74,7 @@
 			this.gb_GasStation.SuspendLayout();
 			this.gb_GasStationPay.SuspendLayout();
 			this.panel_GasStation.SuspendLayout();
+			this.gb_QuantityOrSum.SuspendLayout();
 			this.gb_MiniCafe.SuspendLayout();
 			this.gb_MiniCafePay.SuspendLayout();
 			this.tlp_GroupTotalAmounts.SuspendLayout();
@@ -83,7 +84,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.gb_TotalIncome.SuspendLayout();
 			this.panel_TotalIncome.SuspendLayout();
-			this.gb_QuantityOrSum.SuspendLayout();
 			this.tlp_TotalIncome.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -152,6 +152,17 @@
 			this.gb_GasStationPay.TabStop = false;
 			this.gb_GasStationPay.Text = "До оплати";
 			// 
+			// lbl3_grn
+			// 
+			this.lbl3_grn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.lbl3_grn.AutoSize = true;
+			this.lbl3_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbl3_grn.Location = new System.Drawing.Point(360, 72);
+			this.lbl3_grn.Name = "lbl3_grn";
+			this.lbl3_grn.Size = new System.Drawing.Size(32, 14);
+			this.lbl3_grn.TabIndex = 7;
+			this.lbl3_grn.Text = "грн.";
+			// 
 			// lbl_GasStationAmount
 			// 
 			this.lbl_GasStationAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -180,6 +191,126 @@
 			this.panel_GasStation.Size = new System.Drawing.Size(421, 323);
 			this.panel_GasStation.TabIndex = 0;
 			// 
+			// lbl1_grn
+			// 
+			this.lbl1_grn.AutoSize = true;
+			this.lbl1_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbl1_grn.Location = new System.Drawing.Point(353, 154);
+			this.lbl1_grn.Name = "lbl1_grn";
+			this.lbl1_grn.Size = new System.Drawing.Size(32, 14);
+			this.lbl1_grn.TabIndex = 5;
+			this.lbl1_grn.Text = "грн.";
+			// 
+			// gb_QuantityOrSum
+			// 
+			this.gb_QuantityOrSum.Controls.Add(this.lbl_Quantity);
+			this.gb_QuantityOrSum.Controls.Add(this.lbl2_grn);
+			this.gb_QuantityOrSum.Controls.Add(this.tb_Sum);
+			this.gb_QuantityOrSum.Controls.Add(this.tb_Quantity);
+			this.gb_QuantityOrSum.Controls.Add(this.rb_Sum);
+			this.gb_QuantityOrSum.Controls.Add(this.rb_Quantity);
+			this.gb_QuantityOrSum.Location = new System.Drawing.Point(53, 195);
+			this.gb_QuantityOrSum.Name = "gb_QuantityOrSum";
+			this.gb_QuantityOrSum.Size = new System.Drawing.Size(339, 100);
+			this.gb_QuantityOrSum.TabIndex = 4;
+			this.gb_QuantityOrSum.TabStop = false;
+			// 
+			// lbl_Quantity
+			// 
+			this.lbl_Quantity.AutoSize = true;
+			this.lbl_Quantity.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbl_Quantity.Location = new System.Drawing.Point(300, 36);
+			this.lbl_Quantity.Name = "lbl_Quantity";
+			this.lbl_Quantity.Size = new System.Drawing.Size(19, 14);
+			this.lbl_Quantity.TabIndex = 7;
+			this.lbl_Quantity.Text = "л.";
+			// 
+			// lbl2_grn
+			// 
+			this.lbl2_grn.AutoSize = true;
+			this.lbl2_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbl2_grn.Location = new System.Drawing.Point(300, 74);
+			this.lbl2_grn.Name = "lbl2_grn";
+			this.lbl2_grn.Size = new System.Drawing.Size(32, 14);
+			this.lbl2_grn.TabIndex = 6;
+			this.lbl2_grn.Text = "грн.";
+			// 
+			// tb_Sum
+			// 
+			this.tb_Sum.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.tb_Sum.Location = new System.Drawing.Point(134, 62);
+			this.tb_Sum.Name = "tb_Sum";
+			this.tb_Sum.Size = new System.Drawing.Size(160, 26);
+			this.tb_Sum.TabIndex = 3;
+			// 
+			// tb_Quantity
+			// 
+			this.tb_Quantity.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.tb_Quantity.Location = new System.Drawing.Point(134, 24);
+			this.tb_Quantity.Name = "tb_Quantity";
+			this.tb_Quantity.Size = new System.Drawing.Size(160, 26);
+			this.tb_Quantity.TabIndex = 2;
+			this.tb_Quantity.Text = "10.00";
+			// 
+			// rb_Sum
+			// 
+			this.rb_Sum.AutoSize = true;
+			this.rb_Sum.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.rb_Sum.Location = new System.Drawing.Point(6, 65);
+			this.rb_Sum.Name = "rb_Sum";
+			this.rb_Sum.Size = new System.Drawing.Size(60, 20);
+			this.rb_Sum.TabIndex = 1;
+			this.rb_Sum.Text = "Сума";
+			this.rb_Sum.UseVisualStyleBackColor = true;
+			// 
+			// rb_Quantity
+			// 
+			this.rb_Quantity.AutoSize = true;
+			this.rb_Quantity.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.rb_Quantity.Location = new System.Drawing.Point(6, 27);
+			this.rb_Quantity.Name = "rb_Quantity";
+			this.rb_Quantity.Size = new System.Drawing.Size(83, 20);
+			this.rb_Quantity.TabIndex = 0;
+			this.rb_Quantity.Text = "Кількість";
+			this.rb_Quantity.UseVisualStyleBackColor = true;
+			// 
+			// tb_PriceForFuel
+			// 
+			this.tb_PriceForFuel.Enabled = false;
+			this.tb_PriceForFuel.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.tb_PriceForFuel.ForeColor = System.Drawing.Color.Black;
+			this.tb_PriceForFuel.Location = new System.Drawing.Point(187, 140);
+			this.tb_PriceForFuel.Name = "tb_PriceForFuel";
+			this.tb_PriceForFuel.Size = new System.Drawing.Size(160, 28);
+			this.tb_PriceForFuel.TabIndex = 3;
+			// 
+			// lbl_PriceForFuel
+			// 
+			this.lbl_PriceForFuel.AutoSize = true;
+			this.lbl_PriceForFuel.Location = new System.Drawing.Point(49, 143);
+			this.lbl_PriceForFuel.Name = "lbl_PriceForFuel";
+			this.lbl_PriceForFuel.Size = new System.Drawing.Size(48, 20);
+			this.lbl_PriceForFuel.TabIndex = 2;
+			this.lbl_PriceForFuel.Text = "Ціна";
+			// 
+			// lbl_Fuel
+			// 
+			this.lbl_Fuel.AutoSize = true;
+			this.lbl_Fuel.Location = new System.Drawing.Point(49, 62);
+			this.lbl_Fuel.Name = "lbl_Fuel";
+			this.lbl_Fuel.Size = new System.Drawing.Size(73, 20);
+			this.lbl_Fuel.TabIndex = 1;
+			this.lbl_Fuel.Text = "Бензин";
+			// 
+			// comBx_ListOfGasolineTypes
+			// 
+			this.comBx_ListOfGasolineTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.comBx_ListOfGasolineTypes.FormattingEnabled = true;
+			this.comBx_ListOfGasolineTypes.Location = new System.Drawing.Point(187, 59);
+			this.comBx_ListOfGasolineTypes.Name = "comBx_ListOfGasolineTypes";
+			this.comBx_ListOfGasolineTypes.Size = new System.Drawing.Size(160, 28);
+			this.comBx_ListOfGasolineTypes.TabIndex = 0;
+			// 
 			// gb_MiniCafe
 			// 
 			this.gb_MiniCafe.Controls.Add(this.gb_MiniCafePay);
@@ -206,6 +337,17 @@
 			this.gb_MiniCafePay.TabIndex = 1;
 			this.gb_MiniCafePay.TabStop = false;
 			this.gb_MiniCafePay.Text = "До оплати";
+			// 
+			// lbl4_grn
+			// 
+			this.lbl4_grn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.lbl4_grn.AutoSize = true;
+			this.lbl4_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbl4_grn.Location = new System.Drawing.Point(360, 72);
+			this.lbl4_grn.Name = "lbl4_grn";
+			this.lbl4_grn.Size = new System.Drawing.Size(32, 14);
+			this.lbl4_grn.TabIndex = 7;
+			this.lbl4_grn.Text = "грн.";
 			// 
 			// lbl_MiniCafeAmount
 			// 
@@ -322,6 +464,17 @@
 			this.lbl_TotalAmount.TabIndex = 0;
 			this.lbl_TotalAmount.Text = "0.00";
 			// 
+			// lbl5_grn
+			// 
+			this.lbl5_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.lbl5_grn.AutoSize = true;
+			this.lbl5_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbl5_grn.Location = new System.Drawing.Point(506, 41);
+			this.lbl5_grn.Name = "lbl5_grn";
+			this.lbl5_grn.Size = new System.Drawing.Size(32, 14);
+			this.lbl5_grn.TabIndex = 9;
+			this.lbl5_grn.Text = "грн.";
+			// 
 			// gb_TotalIncome
 			// 
 			this.gb_TotalIncome.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -348,181 +501,6 @@
 			this.panel_TotalIncome.Size = new System.Drawing.Size(288, 97);
 			this.panel_TotalIncome.TabIndex = 0;
 			// 
-			// lbl_TotalIncome
-			// 
-			this.lbl_TotalIncome.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.lbl_TotalIncome.AutoSize = true;
-			this.lbl_TotalIncome.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic);
-			this.lbl_TotalIncome.Location = new System.Drawing.Point(77, 29);
-			this.lbl_TotalIncome.Name = "lbl_TotalIncome";
-			this.lbl_TotalIncome.Size = new System.Drawing.Size(89, 38);
-			this.lbl_TotalIncome.TabIndex = 1;
-			this.lbl_TotalIncome.Text = "0.00";
-			// 
-			// comBx_ListOfGasolineTypes
-			// 
-			this.comBx_ListOfGasolineTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comBx_ListOfGasolineTypes.FormattingEnabled = true;
-			this.comBx_ListOfGasolineTypes.Location = new System.Drawing.Point(187, 59);
-			this.comBx_ListOfGasolineTypes.Name = "comBx_ListOfGasolineTypes";
-			this.comBx_ListOfGasolineTypes.Size = new System.Drawing.Size(160, 28);
-			this.comBx_ListOfGasolineTypes.TabIndex = 0;
-			// 
-			// lbl_Fuel
-			// 
-			this.lbl_Fuel.AutoSize = true;
-			this.lbl_Fuel.Location = new System.Drawing.Point(49, 62);
-			this.lbl_Fuel.Name = "lbl_Fuel";
-			this.lbl_Fuel.Size = new System.Drawing.Size(73, 20);
-			this.lbl_Fuel.TabIndex = 1;
-			this.lbl_Fuel.Text = "Бензин";
-			// 
-			// lbl_PriceForFuel
-			// 
-			this.lbl_PriceForFuel.AutoSize = true;
-			this.lbl_PriceForFuel.Location = new System.Drawing.Point(49, 143);
-			this.lbl_PriceForFuel.Name = "lbl_PriceForFuel";
-			this.lbl_PriceForFuel.Size = new System.Drawing.Size(48, 20);
-			this.lbl_PriceForFuel.TabIndex = 2;
-			this.lbl_PriceForFuel.Text = "Ціна";
-			// 
-			// tb_PriceForFuel
-			// 
-			this.tb_PriceForFuel.Enabled = false;
-			this.tb_PriceForFuel.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.tb_PriceForFuel.ForeColor = System.Drawing.Color.Black;
-			this.tb_PriceForFuel.Location = new System.Drawing.Point(187, 140);
-			this.tb_PriceForFuel.Name = "tb_PriceForFuel";
-			this.tb_PriceForFuel.Size = new System.Drawing.Size(160, 28);
-			this.tb_PriceForFuel.TabIndex = 3;
-			// 
-			// gb_QuantityOrSum
-			// 
-			this.gb_QuantityOrSum.Controls.Add(this.lbl_Quantity);
-			this.gb_QuantityOrSum.Controls.Add(this.lbl2_grn);
-			this.gb_QuantityOrSum.Controls.Add(this.tb_Sum);
-			this.gb_QuantityOrSum.Controls.Add(this.tb_Quantity);
-			this.gb_QuantityOrSum.Controls.Add(this.rb_Sum);
-			this.gb_QuantityOrSum.Controls.Add(this.rb_Quantity);
-			this.gb_QuantityOrSum.Location = new System.Drawing.Point(53, 195);
-			this.gb_QuantityOrSum.Name = "gb_QuantityOrSum";
-			this.gb_QuantityOrSum.Size = new System.Drawing.Size(339, 100);
-			this.gb_QuantityOrSum.TabIndex = 4;
-			this.gb_QuantityOrSum.TabStop = false;
-			// 
-			// rb_Quantity
-			// 
-			this.rb_Quantity.AutoSize = true;
-			this.rb_Quantity.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.rb_Quantity.Location = new System.Drawing.Point(6, 27);
-			this.rb_Quantity.Name = "rb_Quantity";
-			this.rb_Quantity.Size = new System.Drawing.Size(83, 20);
-			this.rb_Quantity.TabIndex = 0;
-			this.rb_Quantity.Text = "Кількість";
-			this.rb_Quantity.UseVisualStyleBackColor = true;
-			// 
-			// rb_Sum
-			// 
-			this.rb_Sum.AutoSize = true;
-			this.rb_Sum.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.rb_Sum.Location = new System.Drawing.Point(6, 65);
-			this.rb_Sum.Name = "rb_Sum";
-			this.rb_Sum.Size = new System.Drawing.Size(60, 20);
-			this.rb_Sum.TabIndex = 1;
-			this.rb_Sum.Text = "Сума";
-			this.rb_Sum.UseVisualStyleBackColor = true;
-			// 
-			// tb_Quantity
-			// 
-			this.tb_Quantity.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.tb_Quantity.Location = new System.Drawing.Point(134, 24);
-			this.tb_Quantity.Name = "tb_Quantity";
-			this.tb_Quantity.Size = new System.Drawing.Size(160, 26);
-			this.tb_Quantity.TabIndex = 2;
-			this.tb_Quantity.Text = "10.00";
-			// 
-			// tb_Sum
-			// 
-			this.tb_Sum.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.tb_Sum.Location = new System.Drawing.Point(134, 62);
-			this.tb_Sum.Name = "tb_Sum";
-			this.tb_Sum.Size = new System.Drawing.Size(160, 26);
-			this.tb_Sum.TabIndex = 3;
-			// 
-			// lbl1_grn
-			// 
-			this.lbl1_grn.AutoSize = true;
-			this.lbl1_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl1_grn.Location = new System.Drawing.Point(353, 154);
-			this.lbl1_grn.Name = "lbl1_grn";
-			this.lbl1_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl1_grn.TabIndex = 5;
-			this.lbl1_grn.Text = "грн.";
-			// 
-			// lbl2_grn
-			// 
-			this.lbl2_grn.AutoSize = true;
-			this.lbl2_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl2_grn.Location = new System.Drawing.Point(300, 74);
-			this.lbl2_grn.Name = "lbl2_grn";
-			this.lbl2_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl2_grn.TabIndex = 6;
-			this.lbl2_grn.Text = "грн.";
-			// 
-			// lbl_Quantity
-			// 
-			this.lbl_Quantity.AutoSize = true;
-			this.lbl_Quantity.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl_Quantity.Location = new System.Drawing.Point(300, 36);
-			this.lbl_Quantity.Name = "lbl_Quantity";
-			this.lbl_Quantity.Size = new System.Drawing.Size(19, 14);
-			this.lbl_Quantity.TabIndex = 7;
-			this.lbl_Quantity.Text = "л.";
-			// 
-			// lbl3_grn
-			// 
-			this.lbl3_grn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.lbl3_grn.AutoSize = true;
-			this.lbl3_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl3_grn.Location = new System.Drawing.Point(360, 72);
-			this.lbl3_grn.Name = "lbl3_grn";
-			this.lbl3_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl3_grn.TabIndex = 7;
-			this.lbl3_grn.Text = "грн.";
-			// 
-			// lbl4_grn
-			// 
-			this.lbl4_grn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.lbl4_grn.AutoSize = true;
-			this.lbl4_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl4_grn.Location = new System.Drawing.Point(360, 72);
-			this.lbl4_grn.Name = "lbl4_grn";
-			this.lbl4_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl4_grn.TabIndex = 7;
-			this.lbl4_grn.Text = "грн.";
-			// 
-			// lbl6_grn
-			// 
-			this.lbl6_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.lbl6_grn.AutoSize = true;
-			this.lbl6_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl6_grn.Location = new System.Drawing.Point(249, 41);
-			this.lbl6_grn.Name = "lbl6_grn";
-			this.lbl6_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl6_grn.TabIndex = 8;
-			this.lbl6_grn.Text = "грн.";
-			// 
-			// lbl5_grn
-			// 
-			this.lbl5_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.lbl5_grn.AutoSize = true;
-			this.lbl5_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl5_grn.Location = new System.Drawing.Point(506, 41);
-			this.lbl5_grn.Name = "lbl5_grn";
-			this.lbl5_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl5_grn.TabIndex = 9;
-			this.lbl5_grn.Text = "грн.";
-			// 
 			// tlp_TotalIncome
 			// 
 			this.tlp_TotalIncome.ColumnCount = 2;
@@ -538,14 +516,36 @@
 			this.tlp_TotalIncome.Size = new System.Drawing.Size(288, 97);
 			this.tlp_TotalIncome.TabIndex = 0;
 			// 
-			// Form1
+			// lbl6_grn
+			// 
+			this.lbl6_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.lbl6_grn.AutoSize = true;
+			this.lbl6_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbl6_grn.Location = new System.Drawing.Point(249, 41);
+			this.lbl6_grn.Name = "lbl6_grn";
+			this.lbl6_grn.Size = new System.Drawing.Size(32, 14);
+			this.lbl6_grn.TabIndex = 8;
+			this.lbl6_grn.Text = "грн.";
+			// 
+			// lbl_TotalIncome
+			// 
+			this.lbl_TotalIncome.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.lbl_TotalIncome.AutoSize = true;
+			this.lbl_TotalIncome.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic);
+			this.lbl_TotalIncome.Location = new System.Drawing.Point(77, 29);
+			this.lbl_TotalIncome.Name = "lbl_TotalIncome";
+			this.lbl_TotalIncome.Size = new System.Drawing.Size(89, 38);
+			this.lbl_TotalIncome.TabIndex = 1;
+			this.lbl_TotalIncome.Text = "0.00";
+			// 
+			// CashierForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(875, 604);
 			this.Controls.Add(this.splitContainer1);
 			this.MinimumSize = new System.Drawing.Size(891, 643);
-			this.Name = "Form1";
+			this.Name = "CashierForm";
 			this.Text = "Form1";
 			this.splitContainer1.Panel1.ResumeLayout(false);
 			this.splitContainer1.Panel2.ResumeLayout(false);
@@ -557,6 +557,8 @@
 			this.gb_GasStationPay.PerformLayout();
 			this.panel_GasStation.ResumeLayout(false);
 			this.panel_GasStation.PerformLayout();
+			this.gb_QuantityOrSum.ResumeLayout(false);
+			this.gb_QuantityOrSum.PerformLayout();
 			this.gb_MiniCafe.ResumeLayout(false);
 			this.gb_MiniCafePay.ResumeLayout(false);
 			this.gb_MiniCafePay.PerformLayout();
@@ -568,8 +570,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.gb_TotalIncome.ResumeLayout(false);
 			this.panel_TotalIncome.ResumeLayout(false);
-			this.gb_QuantityOrSum.ResumeLayout(false);
-			this.gb_QuantityOrSum.PerformLayout();
 			this.tlp_TotalIncome.ResumeLayout(false);
 			this.tlp_TotalIncome.PerformLayout();
 			this.ResumeLayout(false);
@@ -617,4 +617,3 @@
 		private System.Windows.Forms.TableLayoutPanel tlp_TotalIncome;
 	}
 }
-

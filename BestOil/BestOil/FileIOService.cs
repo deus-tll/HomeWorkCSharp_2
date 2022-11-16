@@ -1,13 +1,8 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Prices
+namespace BestOil
 {
 	class FileIOService
 	{
@@ -20,7 +15,7 @@ namespace Prices
 			PATH_TO_PRODUCTS = pathToProducts;
 		}
 
-		public void LoadData(ref BindingList<Fuel> petrols, ref BindingList<Product> products)
+		public void LoadData(ref BindingList<Goods> petrols, ref BindingList<Goods> products)
 		{
 			bool fileWithPetrolsExists = File.Exists(PATH_TO_FUEL);
 			bool fileWithProductsExists = File.Exists(PATH_TO_PRODUCTS);
@@ -29,7 +24,7 @@ namespace Prices
 			if (!fileWithPetrolsExists)
 			{
 				File.CreateText(PATH_TO_FUEL).Dispose();
-				petrols = new BindingList<Fuel>();
+				petrols = new BindingList<Goods>();
 			}
 			else
 			{
@@ -37,16 +32,16 @@ namespace Prices
 				{
 					string fileText = reader.ReadToEnd();
 					if (fileText == "")
-						petrols = new BindingList<Fuel>();
+						petrols = new BindingList<Goods>();
 					else
-						petrols = JsonConvert.DeserializeObject<BindingList<Fuel>>(fileText);
+						petrols = JsonConvert.DeserializeObject<BindingList<Goods>>(fileText);
 				}
 			}
 
 			if (!fileWithProductsExists)
 			{
 				File.CreateText(PATH_TO_PRODUCTS).Dispose();
-				products = new BindingList<Product>();
+				products = new BindingList<Goods>();
 			}
 			else
 			{
@@ -54,9 +49,9 @@ namespace Prices
 				{
 					string fileText = reader.ReadToEnd();
 					if (fileText == "")
-						products = new BindingList<Product>();
+						products = new BindingList<Goods>();
 					else
-						products = JsonConvert.DeserializeObject<BindingList<Product>>(fileText);
+						products = JsonConvert.DeserializeObject<BindingList<Goods>>(fileText);
 				}
 			}
 		}

@@ -1,6 +1,6 @@
-﻿namespace Prices
+﻿namespace BestOil
 {
-	partial class Form1
+	partial class AdminForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -32,21 +32,21 @@
 			this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.GridFuel = new System.Windows.Forms.DataGridView();
+			this.Col_Fuel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.Col_PriceFuel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+			this.btn_AddFuel = new System.Windows.Forms.Button();
+			this.btn_DelFuel = new System.Windows.Forms.Button();
+			this.btn_EditFuel = new System.Windows.Forms.Button();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.GridProduct = new System.Windows.Forms.DataGridView();
-			this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-			this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
-			this.button5 = new System.Windows.Forms.Button();
-			this.button6 = new System.Windows.Forms.Button();
-			this.Col_Fuel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Col_PriceFuel = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Col_Products = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Col_PriceProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+			this.btn_AddProduct = new System.Windows.Forms.Button();
+			this.btn_DelProduct = new System.Windows.Forms.Button();
+			this.button3 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
 			this.splitContainer1.Panel2.SuspendLayout();
@@ -54,10 +54,10 @@
 			this.tableLayoutPanel2.SuspendLayout();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.GridFuel)).BeginInit();
+			this.tableLayoutPanel3.SuspendLayout();
 			this.tableLayoutPanel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.GridProduct)).BeginInit();
-			this.tableLayoutPanel3.SuspendLayout();
 			this.tableLayoutPanel4.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -121,6 +121,72 @@
 			this.GridFuel.Size = new System.Drawing.Size(383, 433);
 			this.GridFuel.TabIndex = 0;
 			// 
+			// Col_Fuel
+			// 
+			this.Col_Fuel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+			this.Col_Fuel.DataPropertyName = "FuelName";
+			this.Col_Fuel.HeaderText = "Fuel";
+			this.Col_Fuel.Name = "Col_Fuel";
+			this.Col_Fuel.ReadOnly = true;
+			// 
+			// Col_PriceFuel
+			// 
+			this.Col_PriceFuel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+			this.Col_PriceFuel.DataPropertyName = "Price";
+			this.Col_PriceFuel.HeaderText = "Price";
+			this.Col_PriceFuel.Name = "Col_PriceFuel";
+			this.Col_PriceFuel.ReadOnly = true;
+			// 
+			// tableLayoutPanel3
+			// 
+			this.tableLayoutPanel3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+			this.tableLayoutPanel3.ColumnCount = 3;
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+			this.tableLayoutPanel3.Controls.Add(this.btn_AddFuel, 0, 0);
+			this.tableLayoutPanel3.Controls.Add(this.btn_DelFuel, 1, 0);
+			this.tableLayoutPanel3.Controls.Add(this.btn_EditFuel, 2, 0);
+			this.tableLayoutPanel3.Location = new System.Drawing.Point(92, 3);
+			this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+			this.tableLayoutPanel3.RowCount = 1;
+			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel3.Size = new System.Drawing.Size(205, 48);
+			this.tableLayoutPanel3.TabIndex = 5;
+			// 
+			// btn_AddFuel
+			// 
+			this.btn_AddFuel.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.btn_AddFuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btn_AddFuel.Location = new System.Drawing.Point(3, 3);
+			this.btn_AddFuel.Name = "btn_AddFuel";
+			this.btn_AddFuel.Size = new System.Drawing.Size(62, 42);
+			this.btn_AddFuel.TabIndex = 0;
+			this.btn_AddFuel.Text = "➕";
+			this.btn_AddFuel.UseVisualStyleBackColor = true;
+			// 
+			// btn_DelFuel
+			// 
+			this.btn_DelFuel.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.btn_DelFuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+			this.btn_DelFuel.Location = new System.Drawing.Point(71, 3);
+			this.btn_DelFuel.Name = "btn_DelFuel";
+			this.btn_DelFuel.Size = new System.Drawing.Size(62, 42);
+			this.btn_DelFuel.TabIndex = 1;
+			this.btn_DelFuel.Text = "🗑";
+			this.btn_DelFuel.UseVisualStyleBackColor = true;
+			// 
+			// btn_EditFuel
+			// 
+			this.btn_EditFuel.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.btn_EditFuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+			this.btn_EditFuel.Location = new System.Drawing.Point(139, 3);
+			this.btn_EditFuel.Name = "btn_EditFuel";
+			this.btn_EditFuel.Size = new System.Drawing.Size(63, 42);
+			this.btn_EditFuel.TabIndex = 2;
+			this.btn_EditFuel.Text = "✍";
+			this.btn_EditFuel.UseVisualStyleBackColor = true;
+			// 
 			// tableLayoutPanel1
 			// 
 			this.tableLayoutPanel1.BackColor = System.Drawing.Color.Indigo;
@@ -162,116 +228,6 @@
 			this.GridProduct.Size = new System.Drawing.Size(383, 433);
 			this.GridProduct.TabIndex = 2;
 			// 
-			// tableLayoutPanel3
-			// 
-			this.tableLayoutPanel3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-			this.tableLayoutPanel3.ColumnCount = 3;
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-			this.tableLayoutPanel3.Controls.Add(this.button1, 0, 0);
-			this.tableLayoutPanel3.Controls.Add(this.button2, 1, 0);
-			this.tableLayoutPanel3.Controls.Add(this.button3, 2, 0);
-			this.tableLayoutPanel3.Location = new System.Drawing.Point(92, 3);
-			this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-			this.tableLayoutPanel3.RowCount = 1;
-			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel3.Size = new System.Drawing.Size(205, 48);
-			this.tableLayoutPanel3.TabIndex = 5;
-			// 
-			// tableLayoutPanel4
-			// 
-			this.tableLayoutPanel4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-			this.tableLayoutPanel4.ColumnCount = 3;
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-			this.tableLayoutPanel4.Controls.Add(this.button4, 0, 0);
-			this.tableLayoutPanel4.Controls.Add(this.button5, 1, 0);
-			this.tableLayoutPanel4.Controls.Add(this.button6, 2, 0);
-			this.tableLayoutPanel4.Location = new System.Drawing.Point(92, 3);
-			this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-			this.tableLayoutPanel4.RowCount = 1;
-			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel4.Size = new System.Drawing.Size(205, 48);
-			this.tableLayoutPanel4.TabIndex = 6;
-			// 
-			// button1
-			// 
-			this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.button1.Location = new System.Drawing.Point(3, 3);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(62, 42);
-			this.button1.TabIndex = 0;
-			this.button1.Text = "button1";
-			this.button1.UseVisualStyleBackColor = true;
-			// 
-			// button2
-			// 
-			this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.button2.Location = new System.Drawing.Point(71, 3);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(62, 42);
-			this.button2.TabIndex = 1;
-			this.button2.Text = "button2";
-			this.button2.UseVisualStyleBackColor = true;
-			// 
-			// button3
-			// 
-			this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.button3.Location = new System.Drawing.Point(139, 3);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(63, 42);
-			this.button3.TabIndex = 2;
-			this.button3.Text = "button3";
-			this.button3.UseVisualStyleBackColor = true;
-			// 
-			// button4
-			// 
-			this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.button4.Location = new System.Drawing.Point(3, 3);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(62, 42);
-			this.button4.TabIndex = 0;
-			this.button4.Text = "button4";
-			this.button4.UseVisualStyleBackColor = true;
-			// 
-			// button5
-			// 
-			this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.button5.Location = new System.Drawing.Point(71, 3);
-			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(62, 42);
-			this.button5.TabIndex = 1;
-			this.button5.Text = "button5";
-			this.button5.UseVisualStyleBackColor = true;
-			// 
-			// button6
-			// 
-			this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.button6.Location = new System.Drawing.Point(139, 3);
-			this.button6.Name = "button6";
-			this.button6.Size = new System.Drawing.Size(63, 42);
-			this.button6.TabIndex = 2;
-			this.button6.Text = "button6";
-			this.button6.UseVisualStyleBackColor = true;
-			// 
-			// Col_Fuel
-			// 
-			this.Col_Fuel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			this.Col_Fuel.DataPropertyName = "FuelName";
-			this.Col_Fuel.HeaderText = "Fuel";
-			this.Col_Fuel.Name = "Col_Fuel";
-			this.Col_Fuel.ReadOnly = true;
-			// 
-			// Col_PriceFuel
-			// 
-			this.Col_PriceFuel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			this.Col_PriceFuel.DataPropertyName = "Price";
-			this.Col_PriceFuel.HeaderText = "Price";
-			this.Col_PriceFuel.Name = "Col_PriceFuel";
-			this.Col_PriceFuel.ReadOnly = true;
-			// 
 			// Col_Products
 			// 
 			this.Col_Products.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -288,16 +244,66 @@
 			this.Col_PriceProduct.Name = "Col_PriceProduct";
 			this.Col_PriceProduct.ReadOnly = true;
 			// 
-			// Form1
+			// tableLayoutPanel4
+			// 
+			this.tableLayoutPanel4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+			this.tableLayoutPanel4.ColumnCount = 3;
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+			this.tableLayoutPanel4.Controls.Add(this.button3, 0, 0);
+			this.tableLayoutPanel4.Controls.Add(this.btn_DelProduct, 0, 0);
+			this.tableLayoutPanel4.Controls.Add(this.btn_AddProduct, 0, 0);
+			this.tableLayoutPanel4.Location = new System.Drawing.Point(92, 3);
+			this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+			this.tableLayoutPanel4.RowCount = 1;
+			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel4.Size = new System.Drawing.Size(205, 48);
+			this.tableLayoutPanel4.TabIndex = 6;
+			// 
+			// btn_AddProduct
+			// 
+			this.btn_AddProduct.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.btn_AddProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btn_AddProduct.Location = new System.Drawing.Point(3, 3);
+			this.btn_AddProduct.Name = "btn_AddProduct";
+			this.btn_AddProduct.Size = new System.Drawing.Size(62, 42);
+			this.btn_AddProduct.TabIndex = 3;
+			this.btn_AddProduct.Text = "➕";
+			this.btn_AddProduct.UseVisualStyleBackColor = true;
+			// 
+			// btn_DelProduct
+			// 
+			this.btn_DelProduct.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.btn_DelProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+			this.btn_DelProduct.Location = new System.Drawing.Point(71, 3);
+			this.btn_DelProduct.Name = "btn_DelProduct";
+			this.btn_DelProduct.Size = new System.Drawing.Size(62, 42);
+			this.btn_DelProduct.TabIndex = 4;
+			this.btn_DelProduct.Text = "🗑";
+			this.btn_DelProduct.UseVisualStyleBackColor = true;
+			// 
+			// button3
+			// 
+			this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+			this.button3.Location = new System.Drawing.Point(139, 3);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(63, 42);
+			this.button3.TabIndex = 5;
+			this.button3.Text = "✍";
+			this.button3.UseVisualStyleBackColor = true;
+			// 
+			// AdminForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(782, 493);
 			this.Controls.Add(this.splitContainer1);
 			this.MinimumSize = new System.Drawing.Size(798, 532);
-			this.Name = "Form1";
+			this.Name = "AdminForm";
 			this.Text = "Form1";
-			this.Load += new System.EventHandler(this.Form1_Load);
+			this.Load += new System.EventHandler(this.AdminForm_Load);
 			this.splitContainer1.Panel1.ResumeLayout(false);
 			this.splitContainer1.Panel2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -305,10 +311,10 @@
 			this.tableLayoutPanel2.ResumeLayout(false);
 			this.panel1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.GridFuel)).EndInit();
+			this.tableLayoutPanel3.ResumeLayout(false);
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.panel2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.GridProduct)).EndInit();
-			this.tableLayoutPanel3.ResumeLayout(false);
 			this.tableLayoutPanel4.ResumeLayout(false);
 			this.ResumeLayout(false);
 
@@ -324,16 +330,16 @@
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.Button btn_AddFuel;
+		private System.Windows.Forms.Button btn_DelFuel;
+		private System.Windows.Forms.Button btn_EditFuel;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-		private System.Windows.Forms.Button button4;
-		private System.Windows.Forms.Button button5;
-		private System.Windows.Forms.Button button6;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Col_Fuel;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Col_PriceFuel;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Col_Products;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Col_PriceProduct;
+		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.Button btn_DelProduct;
+		private System.Windows.Forms.Button btn_AddProduct;
 	}
 }

@@ -1,38 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Prices
+namespace BestOil
 {
-	public partial class Form1 : Form
+	public partial class AdminForm : Form
 	{
-		private BindingList<Fuel> _fuel;
-		private BindingList<Product> _products;
-		private readonly string PATH_TO_FUEL;
-		private readonly string PATH_TO_PRODUCTS;
+		private BindingList<Goods> _fuel;
+		private BindingList<Goods> _products;
+		private readonly string PATH_TO_FUEL = $"{Environment.CurrentDirectory}\\FuelPrice.Json";
+		private readonly string PATH_TO_PRODUCTS = $"{Environment.CurrentDirectory}\\ProductsPrice.Json";
 		private FileIOService _fileIOService;
-		public Form1()
+
+		public AdminForm()
 		{
 			InitializeComponent();
-
-			var dir = Environment.CurrentDirectory;
-			for (int i = 0; i < 3; ++i)
-				dir = Path.GetDirectoryName(dir);
-
-			dir += $"\\BestOil\\bin\\Debug\\";
-
-			PATH_TO_FUEL = $"{dir}FuelPrice.Json";
-			PATH_TO_PRODUCTS = $"{dir}ProductsPrice.Json";
 		}
 
-		private void Form1_Load(object sender, EventArgs e)
+		private void AdminForm_Load(object sender, EventArgs e)
 		{
 			_fileIOService = new FileIOService(PATH_TO_FUEL, PATH_TO_PRODUCTS);
 
