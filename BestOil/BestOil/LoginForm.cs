@@ -16,5 +16,19 @@ namespace BestOil
 		{
 			InitializeComponent();
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			if (textBox1.Text == "admin")
+			{
+				AdminForm adminForm = new AdminForm();
+				adminForm.ShowDialog();
+			}
+			else
+			{
+				CashierForm cashierForm = new CashierForm();
+				cashierForm.ShowDialog();
+			}
+		}
 	}
 }

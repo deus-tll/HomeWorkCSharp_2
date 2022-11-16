@@ -9,13 +9,13 @@ namespace BestOil
 
 		public string ProductName
 		{
-			get { return _price; }
+			get { return _product; }
 			set
 			{
-				if (_price == value) return;
+				if (_product == value) return;
 
-				_price = value;
-				OnPropertyChanged(nameof(Price));
+				_product = value;
+				OnPropertyChanged(nameof(ProductName));
 			}
 		}
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 
@@ -67,6 +68,79 @@ namespace BestOil
 				{
 					MessageBox.Show(ex.Message);
 					Close();
+				}
+			}
+		}
+
+
+		private void btn_AddGoods_Click(object sender, EventArgs e)
+		{
+			Button button = sender as Button;
+			AddingGoodsForm addingGoodsForm = new AddingGoodsForm();
+			addingGoodsForm.ShowDialog();
+
+			if (addingGoodsForm.DialogResult == DialogResult.OK)
+			{
+				Goods goods = new Goods
+				{
+					ProductName = addingGoodsForm.GoodsName,
+					Price = addingGoodsForm.GoodsPrice
+				};
+
+				if (button.Name == btn_AddFuel.Name)
+					_fuel.Add(goods);
+				else if (button.Name == btn_AddProduct.Name)
+					_products.Add(goods);
+			}
+		}
+
+		private void btn_DelGoods_Click(object sender, EventArgs e)
+		{
+			Button button = sender as Button;
+			DeleteGoodsForm deleteGoodsForm = new DeleteGoodsForm();
+			BindingList <Goods> goods = null;
+
+			if (button.Name == btn_DelFuel.Name)
+				goods = _fuel;
+			else if (button.Name == btn_DelProduct.Name)
+				goods = _products;
+
+			deleteGoodsForm.ShowDialog(goods);
+
+			if (deleteGoodsForm.DialogResult == DialogResult.OK)
+				goods.RemoveAt(deleteGoodsForm.Index);
+
+			if (button.Name == btn_DelFuel.Name)
+				_fuel = goods;
+			else if (button.Name == btn_DelProduct.Name)
+				_products = goods;
+		}
+
+		private void btn_EditGoods_Click(object sender, EventArgs e)
+		{
+			Button button = sender as Button;
+			EditingGoodsForm editingGoodsForm = new EditingGoodsForm();
+
+			BindingList<Goods> goods = null;
+
+			if (button.Name == btn_EditFuel.Name)
+				goods = _fuel;
+			else if (button.Name == btn_EditProduct.Name)
+				goods = _products;
+
+			editingGoodsForm.ShowDialog(goods);
+
+			if (editingGoodsForm.DialogResult == DialogResult.OK)
+			{
+				if (button.Name == btn_EditFuel.Name)
+				{
+					_fuel[editingGoodsForm.Index].ProductName = editingGoodsForm.GoodsName;
+					_fuel[editingGoodsForm.Index].Price = editingGoodsForm.GoodsPrice;
+				}
+				else if (button.Name == btn_EditProduct.Name)
+				{
+					_products[editingGoodsForm.Index].ProductName = editingGoodsForm.GoodsName;
+					_products[editingGoodsForm.Index].Price = editingGoodsForm.GoodsPrice;
 				}
 			}
 		}
