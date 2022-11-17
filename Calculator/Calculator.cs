@@ -15,7 +15,6 @@ namespace Calculator
 		public bool IsPressedOperator { get; set; }
 		public bool IsPressedDot { get; set; }
 
-
 		public string Operation(string _operator)
 		{
 			switch (_operator)
@@ -108,6 +107,8 @@ namespace Calculator
 			IsPressedOperator = false;
 		}
 
+			
+		public void ClearNumber2() => _number2.Clear();
 
 		public string GetNumber1() => _number1.ToString();
 		public string GetNumber2() => _number2.ToString();

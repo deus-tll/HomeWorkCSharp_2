@@ -14,7 +14,6 @@ namespace Calculator
 	{
 		//Fields
 		private Calculator _calculator = new Calculator();
-
 		//Constructor without parameters
 		public Form1()
 		{
@@ -28,8 +27,15 @@ namespace Calculator
 
 			if (!_calculator.IsPressedOperator && _calculator.GetNumber1().Length <= 16)
 				lblNumber1.Text = _calculator.GetNumber1();
-			else if(_calculator.IsPressedOperator && _calculator.GetNumber2().Length <=16)
+			else if (_calculator.IsPressedOperator && _calculator.GetNumber2().Length <= 16)
 				lblNumber2.Text = _calculator.GetNumber2();
+			else if (lblNumber2.Text == "")
+				btnClear_Click(sender, e);
+			else
+			{
+				_calculator.ClearNumber2();
+				lblNumber2.Text = "";
+			}
 		}
 
 		private void btnBinaryOperators_Click(object sender, EventArgs e)
@@ -69,6 +75,9 @@ namespace Calculator
 		{
 			if (lblNumber1.Text != "")
 			{
+				if (lblNumber2.Text == "")
+					return;
+				
 				string tmp;
 
 				if (lblNumber2.Text == "")
