@@ -185,7 +185,6 @@ git_stats/*
 
 *.ncrunchproject
 StyleCop.Cache
-bin
 obj
 
 ## Ignore Visual Studio temporary files, build results, and
@@ -204,12 +203,7 @@ obj
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
 bld/
-[Bb]in/
 [Oo]bj/
 [Bb]uild[Oo]utput/
 [Bb]undle[Aa]rtifacts/
@@ -229,8 +223,6 @@ bld/
 TestResult.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
 dlldata.c
 
 *_i.c
