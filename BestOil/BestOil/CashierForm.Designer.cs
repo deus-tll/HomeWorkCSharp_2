@@ -66,6 +66,7 @@
 			this.tlp_TotalIncome = new System.Windows.Forms.TableLayoutPanel();
 			this.lbl6_grn = new System.Windows.Forms.Label();
 			this.lbl_TotalIncome = new System.Windows.Forms.Label();
+			this.btn_PrintCheck = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
 			this.splitContainer1.Panel2.SuspendLayout();
@@ -242,6 +243,7 @@
 			this.tb_Sum.Name = "tb_Sum";
 			this.tb_Sum.Size = new System.Drawing.Size(160, 26);
 			this.tb_Sum.TabIndex = 3;
+			this.tb_Sum.Text = "0.00";
 			this.tb_Sum.TextChanged += new System.EventHandler(this.tb_Sum_TextChanged);
 			// 
 			// tb_Quantity
@@ -251,6 +253,7 @@
 			this.tb_Quantity.Name = "tb_Quantity";
 			this.tb_Quantity.Size = new System.Drawing.Size(160, 26);
 			this.tb_Quantity.TabIndex = 2;
+			this.tb_Quantity.Text = "0.00";
 			this.tb_Quantity.TextChanged += new System.EventHandler(this.tb_Quantity_TextChanged);
 			// 
 			// rb_Sum
@@ -371,6 +374,7 @@
 			this.panel_MiniCafe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+			this.panel_MiniCafe.AutoScroll = true;
 			this.panel_MiniCafe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.panel_MiniCafe.Location = new System.Drawing.Point(6, 27);
 			this.panel_MiniCafe.Name = "panel_MiniCafe";
@@ -384,11 +388,13 @@
 			this.tlp_GroupTotalAmounts.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.39717F));
 			this.tlp_GroupTotalAmounts.Controls.Add(this.gb_TotalAmount, 0, 0);
 			this.tlp_GroupTotalAmounts.Controls.Add(this.gb_TotalIncome, 1, 0);
+			this.tlp_GroupTotalAmounts.Controls.Add(this.btn_PrintCheck, 1, 1);
 			this.tlp_GroupTotalAmounts.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tlp_GroupTotalAmounts.Location = new System.Drawing.Point(0, 0);
 			this.tlp_GroupTotalAmounts.Name = "tlp_GroupTotalAmounts";
-			this.tlp_GroupTotalAmounts.RowCount = 1;
+			this.tlp_GroupTotalAmounts.RowCount = 2;
 			this.tlp_GroupTotalAmounts.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tlp_GroupTotalAmounts.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
 			this.tlp_GroupTotalAmounts.Size = new System.Drawing.Size(875, 138);
 			this.tlp_GroupTotalAmounts.TabIndex = 0;
 			// 
@@ -401,7 +407,7 @@
 			this.gb_TotalAmount.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Italic);
 			this.gb_TotalAmount.Location = new System.Drawing.Point(3, 3);
 			this.gb_TotalAmount.Name = "gb_TotalAmount";
-			this.gb_TotalAmount.Size = new System.Drawing.Size(559, 132);
+			this.gb_TotalAmount.Size = new System.Drawing.Size(559, 102);
 			this.gb_TotalAmount.TabIndex = 0;
 			this.gb_TotalAmount.TabStop = false;
 			this.gb_TotalAmount.Text = "Всього до сплати";
@@ -415,7 +421,7 @@
 			this.panel_TotalAmount.Controls.Add(this.tlp_GroupTotalAmountForPayment);
 			this.panel_TotalAmount.Location = new System.Drawing.Point(6, 27);
 			this.panel_TotalAmount.Name = "panel_TotalAmount";
-			this.panel_TotalAmount.Size = new System.Drawing.Size(545, 97);
+			this.panel_TotalAmount.Size = new System.Drawing.Size(545, 67);
 			this.panel_TotalAmount.TabIndex = 0;
 			// 
 			// tlp_GroupTotalAmountForPayment
@@ -434,7 +440,7 @@
 			this.tlp_GroupTotalAmountForPayment.Name = "tlp_GroupTotalAmountForPayment";
 			this.tlp_GroupTotalAmountForPayment.RowCount = 1;
 			this.tlp_GroupTotalAmountForPayment.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tlp_GroupTotalAmountForPayment.Size = new System.Drawing.Size(545, 97);
+			this.tlp_GroupTotalAmountForPayment.Size = new System.Drawing.Size(545, 67);
 			this.tlp_GroupTotalAmountForPayment.TabIndex = 0;
 			// 
 			// pictureBox1
@@ -443,7 +449,7 @@
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
 			this.pictureBox1.Location = new System.Drawing.Point(3, 3);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(109, 91);
+			this.pictureBox1.Size = new System.Drawing.Size(109, 61);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 2;
 			this.pictureBox1.TabStop = false;
@@ -454,17 +460,18 @@
 			this.btn_Count.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btn_Count.Location = new System.Drawing.Point(118, 3);
 			this.btn_Count.Name = "btn_Count";
-			this.btn_Count.Size = new System.Drawing.Size(186, 91);
+			this.btn_Count.Size = new System.Drawing.Size(186, 61);
 			this.btn_Count.TabIndex = 1;
 			this.btn_Count.Text = "Прорахувати";
 			this.btn_Count.UseVisualStyleBackColor = true;
+			this.btn_Count.Click += new System.EventHandler(this.btn_Count_Click);
 			// 
 			// lbl_TotalAmount
 			// 
 			this.lbl_TotalAmount.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.lbl_TotalAmount.AutoSize = true;
 			this.lbl_TotalAmount.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic);
-			this.lbl_TotalAmount.Location = new System.Drawing.Point(358, 29);
+			this.lbl_TotalAmount.Location = new System.Drawing.Point(358, 14);
 			this.lbl_TotalAmount.Name = "lbl_TotalAmount";
 			this.lbl_TotalAmount.Size = new System.Drawing.Size(89, 38);
 			this.lbl_TotalAmount.TabIndex = 0;
@@ -475,7 +482,7 @@
 			this.lbl5_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.lbl5_grn.AutoSize = true;
 			this.lbl5_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl5_grn.Location = new System.Drawing.Point(506, 41);
+			this.lbl5_grn.Location = new System.Drawing.Point(506, 26);
 			this.lbl5_grn.Name = "lbl5_grn";
 			this.lbl5_grn.Size = new System.Drawing.Size(32, 14);
 			this.lbl5_grn.TabIndex = 9;
@@ -490,7 +497,7 @@
 			this.gb_TotalIncome.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Italic);
 			this.gb_TotalIncome.Location = new System.Drawing.Point(568, 3);
 			this.gb_TotalIncome.Name = "gb_TotalIncome";
-			this.gb_TotalIncome.Size = new System.Drawing.Size(304, 132);
+			this.gb_TotalIncome.Size = new System.Drawing.Size(304, 102);
 			this.gb_TotalIncome.TabIndex = 1;
 			this.gb_TotalIncome.TabStop = false;
 			this.gb_TotalIncome.Text = "Загальна сума виторгу за день";
@@ -504,7 +511,7 @@
 			this.panel_TotalIncome.Controls.Add(this.tlp_TotalIncome);
 			this.panel_TotalIncome.Location = new System.Drawing.Point(6, 27);
 			this.panel_TotalIncome.Name = "panel_TotalIncome";
-			this.panel_TotalIncome.Size = new System.Drawing.Size(288, 97);
+			this.panel_TotalIncome.Size = new System.Drawing.Size(288, 67);
 			this.panel_TotalIncome.TabIndex = 0;
 			// 
 			// tlp_TotalIncome
@@ -519,7 +526,7 @@
 			this.tlp_TotalIncome.Name = "tlp_TotalIncome";
 			this.tlp_TotalIncome.RowCount = 1;
 			this.tlp_TotalIncome.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tlp_TotalIncome.Size = new System.Drawing.Size(288, 97);
+			this.tlp_TotalIncome.Size = new System.Drawing.Size(288, 67);
 			this.tlp_TotalIncome.TabIndex = 0;
 			// 
 			// lbl6_grn
@@ -527,7 +534,7 @@
 			this.lbl6_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.lbl6_grn.AutoSize = true;
 			this.lbl6_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl6_grn.Location = new System.Drawing.Point(249, 41);
+			this.lbl6_grn.Location = new System.Drawing.Point(249, 26);
 			this.lbl6_grn.Name = "lbl6_grn";
 			this.lbl6_grn.Size = new System.Drawing.Size(32, 14);
 			this.lbl6_grn.TabIndex = 8;
@@ -538,11 +545,25 @@
 			this.lbl_TotalIncome.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.lbl_TotalIncome.AutoSize = true;
 			this.lbl_TotalIncome.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic);
-			this.lbl_TotalIncome.Location = new System.Drawing.Point(77, 29);
+			this.lbl_TotalIncome.Location = new System.Drawing.Point(77, 14);
 			this.lbl_TotalIncome.Name = "lbl_TotalIncome";
 			this.lbl_TotalIncome.Size = new System.Drawing.Size(89, 38);
 			this.lbl_TotalIncome.TabIndex = 1;
 			this.lbl_TotalIncome.Text = "0.00";
+			// 
+			// btn_PrintCheck
+			// 
+			this.btn_PrintCheck.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.btn_PrintCheck.Location = new System.Drawing.Point(568, 111);
+			this.btn_PrintCheck.Name = "btn_PrintCheck";
+			this.btn_PrintCheck.Size = new System.Drawing.Size(304, 24);
+			this.btn_PrintCheck.TabIndex = 2;
+			this.btn_PrintCheck.Text = "Чек";
+			this.btn_PrintCheck.UseVisualStyleBackColor = true;
+			this.btn_PrintCheck.Visible = false;
+			this.btn_PrintCheck.Click += new System.EventHandler(this.btn_PrintCheck_Click);
 			// 
 			// CashierForm
 			// 
@@ -622,5 +643,6 @@
 		private System.Windows.Forms.Label lbl5_grn;
 		private System.Windows.Forms.Label lbl6_grn;
 		private System.Windows.Forms.TableLayoutPanel tlp_TotalIncome;
+		private System.Windows.Forms.Button btn_PrintCheck;
 	}
 }
