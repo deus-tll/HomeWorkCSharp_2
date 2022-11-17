@@ -8,7 +8,7 @@ namespace BestOil
 {
 	public partial class AdminForm : Form
 	{
-		private BindingList<Goods> _fuel;
+		private BindingList<Goods> _fuels;
 		private BindingList<Goods> _products;
 		private readonly string PATH_TO_FUEL = $"{Environment.CurrentDirectory}\\FuelPrice.Json";
 		private readonly string PATH_TO_PRODUCTS = $"{Environment.CurrentDirectory}\\ProductsPrice.Json";
@@ -25,7 +25,7 @@ namespace BestOil
 
 			try
 			{
-				_fileIOService.LoadData(ref _fuel, ref _products);
+				_fileIOService.LoadData(ref _fuels, ref _products);
 			}
 			catch (Exception ex)
 			{
@@ -33,10 +33,10 @@ namespace BestOil
 				Close();
 			}
 
-			GridFuel.DataSource = _fuel;
+			GridFuel.DataSource = _fuels;
 			GridProduct.DataSource = _products;
 
-			_fuel.ListChanged += _fuel_ListChanged;
+			_fuels.ListChanged += _fuel_ListChanged;
 			_products.ListChanged += _products_ListChanged;
 		}
 
@@ -88,7 +88,7 @@ namespace BestOil
 				};
 
 				if (button.Name == btn_AddFuel.Name)
-					_fuel.Add(goods);
+					_fuels.Add(goods);
 				else if (button.Name == btn_AddProduct.Name)
 					_products.Add(goods);
 			}
@@ -101,7 +101,7 @@ namespace BestOil
 			BindingList <Goods> goods = null;
 
 			if (button.Name == btn_DelFuel.Name)
-				goods = _fuel;
+				goods = _fuels;
 			else if (button.Name == btn_DelProduct.Name)
 				goods = _products;
 
@@ -111,7 +111,7 @@ namespace BestOil
 				goods.RemoveAt(deleteGoodsForm.Index);
 
 			if (button.Name == btn_DelFuel.Name)
-				_fuel = goods;
+				_fuels = goods;
 			else if (button.Name == btn_DelProduct.Name)
 				_products = goods;
 		}
@@ -124,7 +124,7 @@ namespace BestOil
 			BindingList<Goods> goods = null;
 
 			if (button.Name == btn_EditFuel.Name)
-				goods = _fuel;
+				goods = _fuels;
 			else if (button.Name == btn_EditProduct.Name)
 				goods = _products;
 
@@ -134,8 +134,8 @@ namespace BestOil
 			{
 				if (button.Name == btn_EditFuel.Name)
 				{
-					_fuel[editingGoodsForm.Index].ProductName = editingGoodsForm.GoodsName;
-					_fuel[editingGoodsForm.Index].Price = editingGoodsForm.GoodsPrice;
+					_fuels[editingGoodsForm.Index].ProductName = editingGoodsForm.GoodsName;
+					_fuels[editingGoodsForm.Index].Price = editingGoodsForm.GoodsPrice;
 				}
 				else if (button.Name == btn_EditProduct.Name)
 				{

@@ -242,6 +242,7 @@
 			this.tb_Sum.Name = "tb_Sum";
 			this.tb_Sum.Size = new System.Drawing.Size(160, 26);
 			this.tb_Sum.TabIndex = 3;
+			this.tb_Sum.TextChanged += new System.EventHandler(this.tb_Sum_TextChanged);
 			// 
 			// tb_Quantity
 			// 
@@ -250,7 +251,7 @@
 			this.tb_Quantity.Name = "tb_Quantity";
 			this.tb_Quantity.Size = new System.Drawing.Size(160, 26);
 			this.tb_Quantity.TabIndex = 2;
-			this.tb_Quantity.Text = "10.00";
+			this.tb_Quantity.TextChanged += new System.EventHandler(this.tb_Quantity_TextChanged);
 			// 
 			// rb_Sum
 			// 
@@ -262,17 +263,21 @@
 			this.rb_Sum.TabIndex = 1;
 			this.rb_Sum.Text = "Сума";
 			this.rb_Sum.UseVisualStyleBackColor = true;
+			this.rb_Sum.CheckedChanged += new System.EventHandler(this.rb_Sum_CheckedChanged);
 			// 
 			// rb_Quantity
 			// 
 			this.rb_Quantity.AutoSize = true;
+			this.rb_Quantity.Checked = true;
 			this.rb_Quantity.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.rb_Quantity.Location = new System.Drawing.Point(6, 27);
 			this.rb_Quantity.Name = "rb_Quantity";
 			this.rb_Quantity.Size = new System.Drawing.Size(83, 20);
 			this.rb_Quantity.TabIndex = 0;
+			this.rb_Quantity.TabStop = true;
 			this.rb_Quantity.Text = "Кількість";
 			this.rb_Quantity.UseVisualStyleBackColor = true;
+			this.rb_Quantity.CheckedChanged += new System.EventHandler(this.rb_Quantity_CheckedChanged);
 			// 
 			// tb_PriceForFuel
 			// 
@@ -310,6 +315,7 @@
 			this.comBx_ListOfGasolineTypes.Name = "comBx_ListOfGasolineTypes";
 			this.comBx_ListOfGasolineTypes.Size = new System.Drawing.Size(160, 28);
 			this.comBx_ListOfGasolineTypes.TabIndex = 0;
+			this.comBx_ListOfGasolineTypes.SelectedIndexChanged += new System.EventHandler(this.comBx_ListOfGasolineTypes_SelectedIndexChanged);
 			// 
 			// gb_MiniCafe
 			// 
