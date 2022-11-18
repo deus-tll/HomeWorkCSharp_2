@@ -91,11 +91,8 @@
 			// splitContainer1
 			// 
 			this.splitContainer1.BackColor = System.Drawing.Color.Black;
-			this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.splitContainer1.IsSplitterFixed = true;
-			this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+			resources.ApplyResources(this.splitContainer1, "splitContainer1");
 			this.splitContainer1.Name = "splitContainer1";
-			this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
 			// 
 			// splitContainer1.Panel1
 			// 
@@ -105,81 +102,46 @@
 			// 
 			this.splitContainer1.Panel2.BackColor = System.Drawing.Color.DarkSlateBlue;
 			this.splitContainer1.Panel2.Controls.Add(this.tlp_GroupTotalAmounts);
-			this.splitContainer1.Size = new System.Drawing.Size(875, 604);
-			this.splitContainer1.SplitterDistance = 462;
-			this.splitContainer1.TabIndex = 0;
 			// 
 			// tlp_GroupGasStationAndMiniCafe
 			// 
 			this.tlp_GroupGasStationAndMiniCafe.BackColor = System.Drawing.Color.DarkSlateBlue;
-			this.tlp_GroupGasStationAndMiniCafe.ColumnCount = 2;
-			this.tlp_GroupGasStationAndMiniCafe.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-			this.tlp_GroupGasStationAndMiniCafe.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+			resources.ApplyResources(this.tlp_GroupGasStationAndMiniCafe, "tlp_GroupGasStationAndMiniCafe");
 			this.tlp_GroupGasStationAndMiniCafe.Controls.Add(this.gb_GasStation, 0, 0);
 			this.tlp_GroupGasStationAndMiniCafe.Controls.Add(this.gb_MiniCafe, 1, 0);
-			this.tlp_GroupGasStationAndMiniCafe.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tlp_GroupGasStationAndMiniCafe.Location = new System.Drawing.Point(0, 0);
 			this.tlp_GroupGasStationAndMiniCafe.Name = "tlp_GroupGasStationAndMiniCafe";
-			this.tlp_GroupGasStationAndMiniCafe.RowCount = 1;
-			this.tlp_GroupGasStationAndMiniCafe.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-			this.tlp_GroupGasStationAndMiniCafe.Size = new System.Drawing.Size(875, 462);
-			this.tlp_GroupGasStationAndMiniCafe.TabIndex = 0;
 			// 
 			// gb_GasStation
 			// 
 			this.gb_GasStation.BackColor = System.Drawing.Color.DarkSlateBlue;
 			this.gb_GasStation.Controls.Add(this.gb_GasStationPay);
 			this.gb_GasStation.Controls.Add(this.panel_GasStation);
-			this.gb_GasStation.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.gb_GasStation.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Italic);
-			this.gb_GasStation.Location = new System.Drawing.Point(3, 3);
+			resources.ApplyResources(this.gb_GasStation, "gb_GasStation");
 			this.gb_GasStation.Name = "gb_GasStation";
-			this.gb_GasStation.Size = new System.Drawing.Size(431, 456);
-			this.gb_GasStation.TabIndex = 0;
 			this.gb_GasStation.TabStop = false;
-			this.gb_GasStation.Text = "Автозаправка";
 			// 
 			// gb_GasStationPay
 			// 
-			this.gb_GasStationPay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			resources.ApplyResources(this.gb_GasStationPay, "gb_GasStationPay");
 			this.gb_GasStationPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.gb_GasStationPay.Controls.Add(this.lbl3_grn);
 			this.gb_GasStationPay.Controls.Add(this.lbl_GasStationAmount);
-			this.gb_GasStationPay.Location = new System.Drawing.Point(6, 353);
 			this.gb_GasStationPay.Name = "gb_GasStationPay";
-			this.gb_GasStationPay.Size = new System.Drawing.Size(422, 100);
-			this.gb_GasStationPay.TabIndex = 0;
 			this.gb_GasStationPay.TabStop = false;
-			this.gb_GasStationPay.Text = "До оплати";
 			// 
 			// lbl3_grn
 			// 
-			this.lbl3_grn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.lbl3_grn.AutoSize = true;
-			this.lbl3_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl3_grn.Location = new System.Drawing.Point(360, 72);
+			resources.ApplyResources(this.lbl3_grn, "lbl3_grn");
 			this.lbl3_grn.Name = "lbl3_grn";
-			this.lbl3_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl3_grn.TabIndex = 7;
-			this.lbl3_grn.Text = "грн.";
 			// 
 			// lbl_GasStationAmount
 			// 
-			this.lbl_GasStationAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.lbl_GasStationAmount.AutoSize = true;
-			this.lbl_GasStationAmount.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl_GasStationAmount.Location = new System.Drawing.Point(200, 29);
+			resources.ApplyResources(this.lbl_GasStationAmount, "lbl_GasStationAmount");
 			this.lbl_GasStationAmount.Name = "lbl_GasStationAmount";
-			this.lbl_GasStationAmount.Size = new System.Drawing.Size(89, 38);
-			this.lbl_GasStationAmount.TabIndex = 3;
-			this.lbl_GasStationAmount.Text = "0.00";
 			// 
 			// panel_GasStation
 			// 
-			this.panel_GasStation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			resources.ApplyResources(this.panel_GasStation, "panel_GasStation");
 			this.panel_GasStation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.panel_GasStation.Controls.Add(this.lbl1_grn);
 			this.panel_GasStation.Controls.Add(this.gb_QuantityOrSum);
@@ -187,20 +149,12 @@
 			this.panel_GasStation.Controls.Add(this.lbl_PriceForFuel);
 			this.panel_GasStation.Controls.Add(this.lbl_Fuel);
 			this.panel_GasStation.Controls.Add(this.comBx_ListOfGasolineTypes);
-			this.panel_GasStation.Location = new System.Drawing.Point(6, 27);
 			this.panel_GasStation.Name = "panel_GasStation";
-			this.panel_GasStation.Size = new System.Drawing.Size(421, 323);
-			this.panel_GasStation.TabIndex = 0;
 			// 
 			// lbl1_grn
 			// 
-			this.lbl1_grn.AutoSize = true;
-			this.lbl1_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl1_grn.Location = new System.Drawing.Point(353, 154);
+			resources.ApplyResources(this.lbl1_grn, "lbl1_grn");
 			this.lbl1_grn.Name = "lbl1_grn";
-			this.lbl1_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl1_grn.TabIndex = 5;
-			this.lbl1_grn.Text = "грн.";
 			// 
 			// gb_QuantityOrSum
 			// 
@@ -210,371 +164,203 @@
 			this.gb_QuantityOrSum.Controls.Add(this.tb_Quantity);
 			this.gb_QuantityOrSum.Controls.Add(this.rb_Sum);
 			this.gb_QuantityOrSum.Controls.Add(this.rb_Quantity);
-			this.gb_QuantityOrSum.Location = new System.Drawing.Point(53, 195);
+			resources.ApplyResources(this.gb_QuantityOrSum, "gb_QuantityOrSum");
 			this.gb_QuantityOrSum.Name = "gb_QuantityOrSum";
-			this.gb_QuantityOrSum.Size = new System.Drawing.Size(339, 100);
-			this.gb_QuantityOrSum.TabIndex = 4;
 			this.gb_QuantityOrSum.TabStop = false;
 			// 
 			// lbl_Quantity
 			// 
-			this.lbl_Quantity.AutoSize = true;
-			this.lbl_Quantity.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl_Quantity.Location = new System.Drawing.Point(300, 36);
+			resources.ApplyResources(this.lbl_Quantity, "lbl_Quantity");
 			this.lbl_Quantity.Name = "lbl_Quantity";
-			this.lbl_Quantity.Size = new System.Drawing.Size(19, 14);
-			this.lbl_Quantity.TabIndex = 7;
-			this.lbl_Quantity.Text = "л.";
 			// 
 			// lbl2_grn
 			// 
-			this.lbl2_grn.AutoSize = true;
-			this.lbl2_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl2_grn.Location = new System.Drawing.Point(300, 74);
+			resources.ApplyResources(this.lbl2_grn, "lbl2_grn");
 			this.lbl2_grn.Name = "lbl2_grn";
-			this.lbl2_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl2_grn.TabIndex = 6;
-			this.lbl2_grn.Text = "грн.";
 			// 
 			// tb_Sum
 			// 
-			this.tb_Sum.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.tb_Sum.Location = new System.Drawing.Point(134, 62);
+			resources.ApplyResources(this.tb_Sum, "tb_Sum");
 			this.tb_Sum.Name = "tb_Sum";
-			this.tb_Sum.Size = new System.Drawing.Size(160, 26);
-			this.tb_Sum.TabIndex = 3;
-			this.tb_Sum.Text = "0.00";
 			this.tb_Sum.TextChanged += new System.EventHandler(this.tb_Sum_TextChanged);
 			// 
 			// tb_Quantity
 			// 
-			this.tb_Quantity.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.tb_Quantity.Location = new System.Drawing.Point(134, 24);
+			resources.ApplyResources(this.tb_Quantity, "tb_Quantity");
 			this.tb_Quantity.Name = "tb_Quantity";
-			this.tb_Quantity.Size = new System.Drawing.Size(160, 26);
-			this.tb_Quantity.TabIndex = 2;
-			this.tb_Quantity.Text = "0.00";
 			this.tb_Quantity.TextChanged += new System.EventHandler(this.tb_Quantity_TextChanged);
 			// 
 			// rb_Sum
 			// 
-			this.rb_Sum.AutoSize = true;
-			this.rb_Sum.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.rb_Sum.Location = new System.Drawing.Point(6, 65);
+			resources.ApplyResources(this.rb_Sum, "rb_Sum");
 			this.rb_Sum.Name = "rb_Sum";
-			this.rb_Sum.Size = new System.Drawing.Size(60, 20);
-			this.rb_Sum.TabIndex = 1;
-			this.rb_Sum.Text = "Сума";
 			this.rb_Sum.UseVisualStyleBackColor = true;
 			this.rb_Sum.CheckedChanged += new System.EventHandler(this.rb_Sum_CheckedChanged);
 			// 
 			// rb_Quantity
 			// 
-			this.rb_Quantity.AutoSize = true;
+			resources.ApplyResources(this.rb_Quantity, "rb_Quantity");
 			this.rb_Quantity.Checked = true;
-			this.rb_Quantity.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.rb_Quantity.Location = new System.Drawing.Point(6, 27);
 			this.rb_Quantity.Name = "rb_Quantity";
-			this.rb_Quantity.Size = new System.Drawing.Size(83, 20);
-			this.rb_Quantity.TabIndex = 0;
 			this.rb_Quantity.TabStop = true;
-			this.rb_Quantity.Text = "Кількість";
 			this.rb_Quantity.UseVisualStyleBackColor = true;
 			this.rb_Quantity.CheckedChanged += new System.EventHandler(this.rb_Quantity_CheckedChanged);
 			// 
 			// tb_PriceForFuel
 			// 
-			this.tb_PriceForFuel.Enabled = false;
-			this.tb_PriceForFuel.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			resources.ApplyResources(this.tb_PriceForFuel, "tb_PriceForFuel");
 			this.tb_PriceForFuel.ForeColor = System.Drawing.Color.Black;
-			this.tb_PriceForFuel.Location = new System.Drawing.Point(187, 140);
 			this.tb_PriceForFuel.Name = "tb_PriceForFuel";
-			this.tb_PriceForFuel.Size = new System.Drawing.Size(160, 28);
-			this.tb_PriceForFuel.TabIndex = 3;
 			// 
 			// lbl_PriceForFuel
 			// 
-			this.lbl_PriceForFuel.AutoSize = true;
-			this.lbl_PriceForFuel.Location = new System.Drawing.Point(49, 143);
+			resources.ApplyResources(this.lbl_PriceForFuel, "lbl_PriceForFuel");
 			this.lbl_PriceForFuel.Name = "lbl_PriceForFuel";
-			this.lbl_PriceForFuel.Size = new System.Drawing.Size(48, 20);
-			this.lbl_PriceForFuel.TabIndex = 2;
-			this.lbl_PriceForFuel.Text = "Ціна";
 			// 
 			// lbl_Fuel
 			// 
-			this.lbl_Fuel.AutoSize = true;
-			this.lbl_Fuel.Location = new System.Drawing.Point(49, 62);
+			resources.ApplyResources(this.lbl_Fuel, "lbl_Fuel");
 			this.lbl_Fuel.Name = "lbl_Fuel";
-			this.lbl_Fuel.Size = new System.Drawing.Size(73, 20);
-			this.lbl_Fuel.TabIndex = 1;
-			this.lbl_Fuel.Text = "Бензин";
 			// 
 			// comBx_ListOfGasolineTypes
 			// 
 			this.comBx_ListOfGasolineTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comBx_ListOfGasolineTypes.FormattingEnabled = true;
-			this.comBx_ListOfGasolineTypes.Location = new System.Drawing.Point(187, 59);
+			resources.ApplyResources(this.comBx_ListOfGasolineTypes, "comBx_ListOfGasolineTypes");
 			this.comBx_ListOfGasolineTypes.Name = "comBx_ListOfGasolineTypes";
-			this.comBx_ListOfGasolineTypes.Size = new System.Drawing.Size(160, 28);
-			this.comBx_ListOfGasolineTypes.TabIndex = 0;
 			this.comBx_ListOfGasolineTypes.SelectedIndexChanged += new System.EventHandler(this.comBx_ListOfGasolineTypes_SelectedIndexChanged);
 			// 
 			// gb_MiniCafe
 			// 
 			this.gb_MiniCafe.Controls.Add(this.gb_MiniCafePay);
 			this.gb_MiniCafe.Controls.Add(this.panel_MiniCafe);
-			this.gb_MiniCafe.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.gb_MiniCafe.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.gb_MiniCafe.Location = new System.Drawing.Point(440, 3);
+			resources.ApplyResources(this.gb_MiniCafe, "gb_MiniCafe");
 			this.gb_MiniCafe.Name = "gb_MiniCafe";
-			this.gb_MiniCafe.Size = new System.Drawing.Size(432, 456);
-			this.gb_MiniCafe.TabIndex = 1;
 			this.gb_MiniCafe.TabStop = false;
-			this.gb_MiniCafe.Text = "Міні-Кафе";
 			// 
 			// gb_MiniCafePay
 			// 
-			this.gb_MiniCafePay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			resources.ApplyResources(this.gb_MiniCafePay, "gb_MiniCafePay");
 			this.gb_MiniCafePay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.gb_MiniCafePay.Controls.Add(this.lbl4_grn);
 			this.gb_MiniCafePay.Controls.Add(this.lbl_MiniCafeAmount);
-			this.gb_MiniCafePay.Location = new System.Drawing.Point(6, 353);
 			this.gb_MiniCafePay.Name = "gb_MiniCafePay";
-			this.gb_MiniCafePay.Size = new System.Drawing.Size(421, 100);
-			this.gb_MiniCafePay.TabIndex = 1;
 			this.gb_MiniCafePay.TabStop = false;
-			this.gb_MiniCafePay.Text = "До оплати";
 			// 
 			// lbl4_grn
 			// 
-			this.lbl4_grn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.lbl4_grn.AutoSize = true;
-			this.lbl4_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl4_grn.Location = new System.Drawing.Point(360, 72);
+			resources.ApplyResources(this.lbl4_grn, "lbl4_grn");
 			this.lbl4_grn.Name = "lbl4_grn";
-			this.lbl4_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl4_grn.TabIndex = 7;
-			this.lbl4_grn.Text = "грн.";
 			// 
 			// lbl_MiniCafeAmount
 			// 
-			this.lbl_MiniCafeAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.lbl_MiniCafeAmount.AutoSize = true;
-			this.lbl_MiniCafeAmount.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic);
-			this.lbl_MiniCafeAmount.Location = new System.Drawing.Point(200, 29);
+			resources.ApplyResources(this.lbl_MiniCafeAmount, "lbl_MiniCafeAmount");
 			this.lbl_MiniCafeAmount.Name = "lbl_MiniCafeAmount";
-			this.lbl_MiniCafeAmount.Size = new System.Drawing.Size(89, 38);
-			this.lbl_MiniCafeAmount.TabIndex = 2;
-			this.lbl_MiniCafeAmount.Text = "0.00";
 			// 
 			// panel_MiniCafe
 			// 
-			this.panel_MiniCafe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.panel_MiniCafe.AutoScroll = true;
+			resources.ApplyResources(this.panel_MiniCafe, "panel_MiniCafe");
 			this.panel_MiniCafe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-			this.panel_MiniCafe.Location = new System.Drawing.Point(6, 27);
 			this.panel_MiniCafe.Name = "panel_MiniCafe";
-			this.panel_MiniCafe.Size = new System.Drawing.Size(422, 323);
-			this.panel_MiniCafe.TabIndex = 1;
 			// 
 			// tlp_GroupTotalAmounts
 			// 
-			this.tlp_GroupTotalAmounts.ColumnCount = 2;
-			this.tlp_GroupTotalAmounts.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.60283F));
-			this.tlp_GroupTotalAmounts.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.39717F));
+			resources.ApplyResources(this.tlp_GroupTotalAmounts, "tlp_GroupTotalAmounts");
 			this.tlp_GroupTotalAmounts.Controls.Add(this.gb_TotalAmount, 0, 0);
 			this.tlp_GroupTotalAmounts.Controls.Add(this.gb_TotalIncome, 1, 0);
 			this.tlp_GroupTotalAmounts.Controls.Add(this.btn_PrintCheck, 1, 1);
-			this.tlp_GroupTotalAmounts.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tlp_GroupTotalAmounts.Location = new System.Drawing.Point(0, 0);
 			this.tlp_GroupTotalAmounts.Name = "tlp_GroupTotalAmounts";
-			this.tlp_GroupTotalAmounts.RowCount = 2;
-			this.tlp_GroupTotalAmounts.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tlp_GroupTotalAmounts.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-			this.tlp_GroupTotalAmounts.Size = new System.Drawing.Size(875, 138);
-			this.tlp_GroupTotalAmounts.TabIndex = 0;
 			// 
 			// gb_TotalAmount
 			// 
-			this.gb_TotalAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			resources.ApplyResources(this.gb_TotalAmount, "gb_TotalAmount");
 			this.gb_TotalAmount.Controls.Add(this.panel_TotalAmount);
-			this.gb_TotalAmount.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Italic);
-			this.gb_TotalAmount.Location = new System.Drawing.Point(3, 3);
 			this.gb_TotalAmount.Name = "gb_TotalAmount";
-			this.gb_TotalAmount.Size = new System.Drawing.Size(559, 102);
-			this.gb_TotalAmount.TabIndex = 0;
 			this.gb_TotalAmount.TabStop = false;
-			this.gb_TotalAmount.Text = "Всього до сплати";
 			// 
 			// panel_TotalAmount
 			// 
-			this.panel_TotalAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			resources.ApplyResources(this.panel_TotalAmount, "panel_TotalAmount");
 			this.panel_TotalAmount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.panel_TotalAmount.Controls.Add(this.tlp_GroupTotalAmountForPayment);
-			this.panel_TotalAmount.Location = new System.Drawing.Point(6, 27);
 			this.panel_TotalAmount.Name = "panel_TotalAmount";
-			this.panel_TotalAmount.Size = new System.Drawing.Size(545, 67);
-			this.panel_TotalAmount.TabIndex = 0;
 			// 
 			// tlp_GroupTotalAmountForPayment
 			// 
-			this.tlp_GroupTotalAmountForPayment.ColumnCount = 4;
-			this.tlp_GroupTotalAmountForPayment.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.18559F));
-			this.tlp_GroupTotalAmountForPayment.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.3102F));
-			this.tlp_GroupTotalAmountForPayment.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.3102F));
-			this.tlp_GroupTotalAmountForPayment.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.193997F));
+			resources.ApplyResources(this.tlp_GroupTotalAmountForPayment, "tlp_GroupTotalAmountForPayment");
 			this.tlp_GroupTotalAmountForPayment.Controls.Add(this.pictureBox1, 0, 0);
 			this.tlp_GroupTotalAmountForPayment.Controls.Add(this.btn_Count, 1, 0);
 			this.tlp_GroupTotalAmountForPayment.Controls.Add(this.lbl_TotalAmount, 2, 0);
 			this.tlp_GroupTotalAmountForPayment.Controls.Add(this.lbl5_grn, 3, 0);
-			this.tlp_GroupTotalAmountForPayment.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tlp_GroupTotalAmountForPayment.Location = new System.Drawing.Point(0, 0);
 			this.tlp_GroupTotalAmountForPayment.Name = "tlp_GroupTotalAmountForPayment";
-			this.tlp_GroupTotalAmountForPayment.RowCount = 1;
-			this.tlp_GroupTotalAmountForPayment.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tlp_GroupTotalAmountForPayment.Size = new System.Drawing.Size(545, 67);
-			this.tlp_GroupTotalAmountForPayment.TabIndex = 0;
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+			resources.ApplyResources(this.pictureBox1, "pictureBox1");
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(109, 61);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox1.TabIndex = 2;
 			this.pictureBox1.TabStop = false;
 			// 
 			// btn_Count
 			// 
-			this.btn_Count.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.btn_Count.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btn_Count.Location = new System.Drawing.Point(118, 3);
+			resources.ApplyResources(this.btn_Count, "btn_Count");
 			this.btn_Count.Name = "btn_Count";
-			this.btn_Count.Size = new System.Drawing.Size(186, 61);
-			this.btn_Count.TabIndex = 1;
-			this.btn_Count.Text = "Прорахувати";
 			this.btn_Count.UseVisualStyleBackColor = true;
 			this.btn_Count.Click += new System.EventHandler(this.btn_Count_Click);
 			// 
 			// lbl_TotalAmount
 			// 
-			this.lbl_TotalAmount.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.lbl_TotalAmount.AutoSize = true;
-			this.lbl_TotalAmount.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic);
-			this.lbl_TotalAmount.Location = new System.Drawing.Point(358, 14);
+			resources.ApplyResources(this.lbl_TotalAmount, "lbl_TotalAmount");
 			this.lbl_TotalAmount.Name = "lbl_TotalAmount";
-			this.lbl_TotalAmount.Size = new System.Drawing.Size(89, 38);
-			this.lbl_TotalAmount.TabIndex = 0;
-			this.lbl_TotalAmount.Text = "0.00";
 			// 
 			// lbl5_grn
 			// 
-			this.lbl5_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.lbl5_grn.AutoSize = true;
-			this.lbl5_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl5_grn.Location = new System.Drawing.Point(506, 26);
+			resources.ApplyResources(this.lbl5_grn, "lbl5_grn");
 			this.lbl5_grn.Name = "lbl5_grn";
-			this.lbl5_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl5_grn.TabIndex = 9;
-			this.lbl5_grn.Text = "грн.";
 			// 
 			// gb_TotalIncome
 			// 
-			this.gb_TotalIncome.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			resources.ApplyResources(this.gb_TotalIncome, "gb_TotalIncome");
 			this.gb_TotalIncome.Controls.Add(this.panel_TotalIncome);
-			this.gb_TotalIncome.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Italic);
-			this.gb_TotalIncome.Location = new System.Drawing.Point(568, 3);
 			this.gb_TotalIncome.Name = "gb_TotalIncome";
-			this.gb_TotalIncome.Size = new System.Drawing.Size(304, 102);
-			this.gb_TotalIncome.TabIndex = 1;
 			this.gb_TotalIncome.TabStop = false;
-			this.gb_TotalIncome.Text = "Загальна сума виторгу за день";
 			// 
 			// panel_TotalIncome
 			// 
-			this.panel_TotalIncome.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			resources.ApplyResources(this.panel_TotalIncome, "panel_TotalIncome");
 			this.panel_TotalIncome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.panel_TotalIncome.Controls.Add(this.tlp_TotalIncome);
-			this.panel_TotalIncome.Location = new System.Drawing.Point(6, 27);
 			this.panel_TotalIncome.Name = "panel_TotalIncome";
-			this.panel_TotalIncome.Size = new System.Drawing.Size(288, 67);
-			this.panel_TotalIncome.TabIndex = 0;
 			// 
 			// tlp_TotalIncome
 			// 
-			this.tlp_TotalIncome.ColumnCount = 2;
-			this.tlp_TotalIncome.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.38107F));
-			this.tlp_TotalIncome.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.61893F));
+			resources.ApplyResources(this.tlp_TotalIncome, "tlp_TotalIncome");
 			this.tlp_TotalIncome.Controls.Add(this.lbl6_grn, 1, 0);
 			this.tlp_TotalIncome.Controls.Add(this.lbl_TotalIncome, 0, 0);
-			this.tlp_TotalIncome.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tlp_TotalIncome.Location = new System.Drawing.Point(0, 0);
 			this.tlp_TotalIncome.Name = "tlp_TotalIncome";
-			this.tlp_TotalIncome.RowCount = 1;
-			this.tlp_TotalIncome.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tlp_TotalIncome.Size = new System.Drawing.Size(288, 67);
-			this.tlp_TotalIncome.TabIndex = 0;
 			// 
 			// lbl6_grn
 			// 
-			this.lbl6_grn.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.lbl6_grn.AutoSize = true;
-			this.lbl6_grn.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbl6_grn.Location = new System.Drawing.Point(249, 26);
+			resources.ApplyResources(this.lbl6_grn, "lbl6_grn");
 			this.lbl6_grn.Name = "lbl6_grn";
-			this.lbl6_grn.Size = new System.Drawing.Size(32, 14);
-			this.lbl6_grn.TabIndex = 8;
-			this.lbl6_grn.Text = "грн.";
 			// 
 			// lbl_TotalIncome
 			// 
-			this.lbl_TotalIncome.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.lbl_TotalIncome.AutoSize = true;
-			this.lbl_TotalIncome.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Italic);
-			this.lbl_TotalIncome.Location = new System.Drawing.Point(77, 14);
+			resources.ApplyResources(this.lbl_TotalIncome, "lbl_TotalIncome");
 			this.lbl_TotalIncome.Name = "lbl_TotalIncome";
-			this.lbl_TotalIncome.Size = new System.Drawing.Size(89, 38);
-			this.lbl_TotalIncome.TabIndex = 1;
-			this.lbl_TotalIncome.Text = "0.00";
 			// 
 			// btn_PrintCheck
 			// 
-			this.btn_PrintCheck.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.btn_PrintCheck.Location = new System.Drawing.Point(568, 111);
+			resources.ApplyResources(this.btn_PrintCheck, "btn_PrintCheck");
 			this.btn_PrintCheck.Name = "btn_PrintCheck";
-			this.btn_PrintCheck.Size = new System.Drawing.Size(304, 24);
-			this.btn_PrintCheck.TabIndex = 2;
-			this.btn_PrintCheck.Text = "Чек";
 			this.btn_PrintCheck.UseVisualStyleBackColor = true;
-			this.btn_PrintCheck.Visible = false;
 			this.btn_PrintCheck.Click += new System.EventHandler(this.btn_PrintCheck_Click);
 			// 
 			// CashierForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(875, 604);
 			this.Controls.Add(this.splitContainer1);
-			this.MinimumSize = new System.Drawing.Size(891, 643);
 			this.Name = "CashierForm";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Form1";
 			this.splitContainer1.Panel1.ResumeLayout(false);
 			this.splitContainer1.Panel2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
