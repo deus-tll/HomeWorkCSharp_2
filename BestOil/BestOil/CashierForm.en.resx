@@ -118,6 +118,78 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl3_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="lbl3_grn.Text" xml:space="preserve">
+    <value>UAH</value>
+  </data>
+  <data name="gb_GasStationPay.Text" xml:space="preserve">
+    <value>To pay</value>
+  </data>
+  <data name="lbl1_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="lbl1_grn.Text" xml:space="preserve">
+    <value>UAH</value>
+  </data>
+  <data name="lbl_Quantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 14</value>
+  </data>
+  <data name="lbl_Quantity.Text" xml:space="preserve">
+    <value>liters</value>
+  </data>
+  <data name="lbl2_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="lbl2_grn.Text" xml:space="preserve">
+    <value>UAH</value>
+  </data>
+  <data name="rb_Sum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="rb_Sum.Text" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="rb_Quantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="rb_Quantity.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lbl_PriceForFuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="lbl_PriceForFuel.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lbl_Fuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="lbl_Fuel.Text" xml:space="preserve">
+    <value>Gasoline</value>
+  </data>
+  <data name="gb_GasStation.Text" xml:space="preserve">
+    <value>Gas station</value>
+  </data>
+  <data name="lbl4_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="lbl4_grn.Text" xml:space="preserve">
+    <value>UAH</value>
+  </data>
+  <data name="gb_MiniCafePay.Text" xml:space="preserve">
+    <value>To pay</value>
+  </data>
+  <data name="gb_MiniCafe.Text" xml:space="preserve">
+    <value>Mini Cafe</value>
+  </data>
+  <data name="моваToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="моваToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkK
@@ -3263,5 +3335,39 @@
         QgQIEBBCBAgQEEIECBAQQgQIEBBCBAgQEEIECBAQQgQIEBBCBAgQEEIECBAQQgQIEBBCBAgQEERF4AFo
         OBAQScpgwLQcCAgv/9k=
 </value>
+  </data>
+  <data name="btn_Count.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="lbl5_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="lbl5_grn.Text" xml:space="preserve">
+    <value>UAH</value>
+  </data>
+  <data name="gb_TotalAmount.Text" xml:space="preserve">
+    <value>Total due</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gb_TotalIncome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl6_grn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 26</value>
+  </data>
+  <data name="lbl6_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 14</value>
+  </data>
+  <data name="lbl6_grn.Text" xml:space="preserve">
+    <value>UAH</value>
+  </data>
+  <data name="gb_TotalIncome.Text" xml:space="preserve">
+    <value>The total amount of the proceeds</value>
+  </data>
+  <data name="btn_PrintCheck.Text" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cash register</value>
   </data>
 </root>

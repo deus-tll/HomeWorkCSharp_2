@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 
 
@@ -116,8 +117,9 @@ namespace BestOil
 				if (tb_Quantity.Text != "")
 					lbl_GasStationAmount.Text = String.Format("{0:0.00}", Convert.ToDecimal(tb_PriceForFuel.Text) * Convert.ToDecimal(tb_Quantity.Text));
 
-				gb_GasStationPay.Text = "До оплати";
-				lbl3_grn.Text = "грн.";
+
+				gb_GasStationPay.Text = gb_MiniCafePay.Text;
+				lbl3_grn.Text = lbl1_grn.Text;
 			}
 			else if (rb_Sum.Checked)
 			{
@@ -130,8 +132,16 @@ namespace BestOil
 					lbl_GasStationAmount.Text = tb_Quantity.Text;
 				}
 
-				gb_GasStationPay.Text = "До видачі";
-				lbl3_grn.Text = "л.";
+				if (Program.Language == "")
+				{
+					gb_GasStationPay.Text = "До видачі";
+					lbl3_grn.Text = "л.";
+				}
+				else if(Program.Language == "en")
+				{
+					gb_GasStationPay.Text = "Should be issued";
+					lbl3_grn.Text = "liters";
+				}
 			}
 		}
 
@@ -145,8 +155,8 @@ namespace BestOil
 				tb_Quantity.Enabled = true;
 				tb_Sum.Enabled = false;
 
-				gb_GasStationPay.Text = "До оплати";
-				lbl3_grn.Text = "грн.";
+				gb_GasStationPay.Text = gb_MiniCafePay.Text;
+				lbl3_grn.Text = lbl1_grn.Text;
 
 				tb_Sum.Text = "0.00";
 			}
@@ -159,8 +169,17 @@ namespace BestOil
 			tb_Quantity.Enabled = false;
 			tb_Sum.Enabled = true;
 
-			gb_GasStationPay.Text = "До видачі";
-			lbl3_grn.Text = "л.";
+			if (Program.Language == "")
+			{
+				gb_GasStationPay.Text = "До видачі";
+				lbl3_grn.Text = "л.";
+			}
+			else if (Program.Language == "en")
+			{
+				gb_GasStationPay.Text = "Should be issued";
+				lbl3_grn.Text = "liters";
+			}
+
 			tb_Quantity.Text = "0.00";
 		}
 
@@ -248,6 +267,26 @@ namespace BestOil
 			lbl_TotalAmount.Text = String.Format("{0:0.00}", totalSum);
 
 			btn_PrintCheck.Visible = true;
+		}
+
+		private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			if (Program.Language != "en")
+			{
+				var changeLanguage = new ChangeLanguage();
+				changeLanguage.UpdateConfig("language", "en");
+				Application.Restart();
+			}
+		}
+
+		private void українськаToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			if (Program.Language != "")
+			{
+				var changeLanguage = new ChangeLanguage();
+				changeLanguage.UpdateConfig("language", "");
+				Application.Restart();
+			}
 		}
 	}
 }

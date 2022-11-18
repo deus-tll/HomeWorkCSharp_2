@@ -53,6 +53,10 @@
 			this.lbl4_grn = new System.Windows.Forms.Label();
 			this.lbl_MiniCafeAmount = new System.Windows.Forms.Label();
 			this.panel_MiniCafe = new System.Windows.Forms.Panel();
+			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+			this.моваToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.українськаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.tlp_GroupTotalAmounts = new System.Windows.Forms.TableLayoutPanel();
 			this.gb_TotalAmount = new System.Windows.Forms.GroupBox();
 			this.panel_TotalAmount = new System.Windows.Forms.Panel();
@@ -78,6 +82,7 @@
 			this.gb_QuantityOrSum.SuspendLayout();
 			this.gb_MiniCafe.SuspendLayout();
 			this.gb_MiniCafePay.SuspendLayout();
+			this.menuStrip1.SuspendLayout();
 			this.tlp_GroupTotalAmounts.SuspendLayout();
 			this.gb_TotalAmount.SuspendLayout();
 			this.panel_TotalAmount.SuspendLayout();
@@ -90,33 +95,36 @@
 			// 
 			// splitContainer1
 			// 
-			this.splitContainer1.BackColor = System.Drawing.Color.Black;
 			resources.ApplyResources(this.splitContainer1, "splitContainer1");
+			this.splitContainer1.BackColor = System.Drawing.Color.Black;
 			this.splitContainer1.Name = "splitContainer1";
 			// 
 			// splitContainer1.Panel1
 			// 
+			resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
 			this.splitContainer1.Panel1.Controls.Add(this.tlp_GroupGasStationAndMiniCafe);
+			this.splitContainer1.Panel1.Controls.Add(this.menuStrip1);
 			// 
 			// splitContainer1.Panel2
 			// 
+			resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
 			this.splitContainer1.Panel2.BackColor = System.Drawing.Color.DarkSlateBlue;
 			this.splitContainer1.Panel2.Controls.Add(this.tlp_GroupTotalAmounts);
 			// 
 			// tlp_GroupGasStationAndMiniCafe
 			// 
-			this.tlp_GroupGasStationAndMiniCafe.BackColor = System.Drawing.Color.DarkSlateBlue;
 			resources.ApplyResources(this.tlp_GroupGasStationAndMiniCafe, "tlp_GroupGasStationAndMiniCafe");
+			this.tlp_GroupGasStationAndMiniCafe.BackColor = System.Drawing.Color.DarkSlateBlue;
 			this.tlp_GroupGasStationAndMiniCafe.Controls.Add(this.gb_GasStation, 0, 0);
 			this.tlp_GroupGasStationAndMiniCafe.Controls.Add(this.gb_MiniCafe, 1, 0);
 			this.tlp_GroupGasStationAndMiniCafe.Name = "tlp_GroupGasStationAndMiniCafe";
 			// 
 			// gb_GasStation
 			// 
+			resources.ApplyResources(this.gb_GasStation, "gb_GasStation");
 			this.gb_GasStation.BackColor = System.Drawing.Color.DarkSlateBlue;
 			this.gb_GasStation.Controls.Add(this.gb_GasStationPay);
 			this.gb_GasStation.Controls.Add(this.panel_GasStation);
-			resources.ApplyResources(this.gb_GasStation, "gb_GasStation");
 			this.gb_GasStation.Name = "gb_GasStation";
 			this.gb_GasStation.TabStop = false;
 			// 
@@ -158,13 +166,13 @@
 			// 
 			// gb_QuantityOrSum
 			// 
+			resources.ApplyResources(this.gb_QuantityOrSum, "gb_QuantityOrSum");
 			this.gb_QuantityOrSum.Controls.Add(this.lbl_Quantity);
 			this.gb_QuantityOrSum.Controls.Add(this.lbl2_grn);
 			this.gb_QuantityOrSum.Controls.Add(this.tb_Sum);
 			this.gb_QuantityOrSum.Controls.Add(this.tb_Quantity);
 			this.gb_QuantityOrSum.Controls.Add(this.rb_Sum);
 			this.gb_QuantityOrSum.Controls.Add(this.rb_Quantity);
-			resources.ApplyResources(this.gb_QuantityOrSum, "gb_QuantityOrSum");
 			this.gb_QuantityOrSum.Name = "gb_QuantityOrSum";
 			this.gb_QuantityOrSum.TabStop = false;
 			// 
@@ -224,17 +232,17 @@
 			// 
 			// comBx_ListOfGasolineTypes
 			// 
+			resources.ApplyResources(this.comBx_ListOfGasolineTypes, "comBx_ListOfGasolineTypes");
 			this.comBx_ListOfGasolineTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comBx_ListOfGasolineTypes.FormattingEnabled = true;
-			resources.ApplyResources(this.comBx_ListOfGasolineTypes, "comBx_ListOfGasolineTypes");
 			this.comBx_ListOfGasolineTypes.Name = "comBx_ListOfGasolineTypes";
 			this.comBx_ListOfGasolineTypes.SelectedIndexChanged += new System.EventHandler(this.comBx_ListOfGasolineTypes_SelectedIndexChanged);
 			// 
 			// gb_MiniCafe
 			// 
+			resources.ApplyResources(this.gb_MiniCafe, "gb_MiniCafe");
 			this.gb_MiniCafe.Controls.Add(this.gb_MiniCafePay);
 			this.gb_MiniCafe.Controls.Add(this.panel_MiniCafe);
-			resources.ApplyResources(this.gb_MiniCafe, "gb_MiniCafe");
 			this.gb_MiniCafe.Name = "gb_MiniCafe";
 			this.gb_MiniCafe.TabStop = false;
 			// 
@@ -262,6 +270,34 @@
 			resources.ApplyResources(this.panel_MiniCafe, "panel_MiniCafe");
 			this.panel_MiniCafe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.panel_MiniCafe.Name = "panel_MiniCafe";
+			// 
+			// menuStrip1
+			// 
+			resources.ApplyResources(this.menuStrip1, "menuStrip1");
+			this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.моваToolStripMenuItem});
+			this.menuStrip1.Name = "menuStrip1";
+			// 
+			// моваToolStripMenuItem
+			// 
+			resources.ApplyResources(this.моваToolStripMenuItem, "моваToolStripMenuItem");
+			this.моваToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.englishToolStripMenuItem,
+            this.українськаToolStripMenuItem});
+			this.моваToolStripMenuItem.Name = "моваToolStripMenuItem";
+			// 
+			// englishToolStripMenuItem
+			// 
+			resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+			this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+			this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+			// 
+			// українськаToolStripMenuItem
+			// 
+			resources.ApplyResources(this.українськаToolStripMenuItem, "українськаToolStripMenuItem");
+			this.українськаToolStripMenuItem.Name = "українськаToolStripMenuItem";
+			this.українськаToolStripMenuItem.Click += new System.EventHandler(this.українськаToolStripMenuItem_Click);
 			// 
 			// tlp_GroupTotalAmounts
 			// 
@@ -362,6 +398,7 @@
 			this.Controls.Add(this.splitContainer1);
 			this.Name = "CashierForm";
 			this.splitContainer1.Panel1.ResumeLayout(false);
+			this.splitContainer1.Panel1.PerformLayout();
 			this.splitContainer1.Panel2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
 			this.splitContainer1.ResumeLayout(false);
@@ -376,7 +413,10 @@
 			this.gb_MiniCafe.ResumeLayout(false);
 			this.gb_MiniCafePay.ResumeLayout(false);
 			this.gb_MiniCafePay.PerformLayout();
+			this.menuStrip1.ResumeLayout(false);
+			this.menuStrip1.PerformLayout();
 			this.tlp_GroupTotalAmounts.ResumeLayout(false);
+			this.tlp_GroupTotalAmounts.PerformLayout();
 			this.gb_TotalAmount.ResumeLayout(false);
 			this.panel_TotalAmount.ResumeLayout(false);
 			this.tlp_GroupTotalAmountForPayment.ResumeLayout(false);
@@ -430,5 +470,9 @@
 		private System.Windows.Forms.Label lbl6_grn;
 		private System.Windows.Forms.TableLayoutPanel tlp_TotalIncome;
 		private System.Windows.Forms.Button btn_PrintCheck;
+		private System.Windows.Forms.MenuStrip menuStrip1;
+		private System.Windows.Forms.ToolStripMenuItem моваToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem українськаToolStripMenuItem;
 	}
 }

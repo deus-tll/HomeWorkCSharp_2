@@ -30,5 +30,25 @@ namespace BestOil
 				cashierForm.ShowDialog();
 			}
 		}
+
+		private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			if (Program.Language != "en")
+			{
+				var changeLanguage = new ChangeLanguage();
+				changeLanguage.UpdateConfig("language", "en");
+				Application.Restart();
+			}
+		}
+
+		private void українськаToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			if (Program.Language != "")
+			{
+				var changeLanguage = new ChangeLanguage();
+				changeLanguage.UpdateConfig("language", "");
+				Application.Restart();
+			}
+		}
 	}
 }

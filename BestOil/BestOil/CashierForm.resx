@@ -118,703 +118,730 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="splitContainer1.IsSplitterFixed" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="tlp_GroupGasStationAndMiniCafe.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="gb_GasStationPay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <data name="lbl3_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_Fuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
   </data>
-  <data name="lbl3_grn.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_PrintCheck.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="lbl3_grn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9pt, style=Italic</value>
-  </data>
-  <data name="lbl3_grn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 72</value>
-  </data>
-  <data name="lbl3_grn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 14</value>
-  </data>
-  <data name="lbl3_grn.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lbl3_grn.Text" xml:space="preserve">
-    <value>грн.</value>
-  </data>
-  <data name="&gt;&gt;lbl3_grn.Name" xml:space="preserve">
-    <value>lbl3_grn</value>
-  </data>
-  <data name="&gt;&gt;lbl3_grn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl3_grn.Parent" xml:space="preserve">
-    <value>gb_GasStationPay</value>
-  </data>
-  <data name="&gt;&gt;lbl3_grn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl_GasStationAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="lbl_GasStationAmount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_GasStationAmount.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbl_TotalAmount.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 24pt, style=Italic</value>
   </data>
-  <data name="lbl_GasStationAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 29</value>
-  </data>
-  <data name="lbl_GasStationAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 38</value>
-  </data>
-  <data name="lbl_GasStationAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lbl_GasStationAmount.Text" xml:space="preserve">
-    <value>0.00</value>
-  </data>
-  <data name="&gt;&gt;lbl_GasStationAmount.Name" xml:space="preserve">
-    <value>lbl_GasStationAmount</value>
-  </data>
-  <data name="&gt;&gt;lbl_GasStationAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_GasStationAmount.Parent" xml:space="preserve">
-    <value>gb_GasStationPay</value>
-  </data>
-  <data name="&gt;&gt;lbl_GasStationAmount.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="gb_GasStationPay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 353</value>
-  </data>
-  <data name="gb_GasStationPay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>422, 100</value>
-  </data>
-  <data name="gb_GasStationPay.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="gb_GasStationPay.Text" xml:space="preserve">
-    <value>До оплати</value>
-  </data>
-  <data name="&gt;&gt;gb_GasStationPay.Name" xml:space="preserve">
-    <value>gb_GasStationPay</value>
-  </data>
-  <data name="&gt;&gt;gb_GasStationPay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_GasStationPay.Parent" xml:space="preserve">
-    <value>gb_GasStation</value>
-  </data>
-  <data name="&gt;&gt;gb_GasStationPay.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel_GasStation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="lbl1_grn.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl1_grn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9pt, style=Italic</value>
-  </data>
-  <data name="lbl1_grn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>353, 154</value>
-  </data>
-  <data name="lbl1_grn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 14</value>
-  </data>
-  <data name="lbl1_grn.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lbl1_grn.Text" xml:space="preserve">
-    <value>грн.</value>
-  </data>
-  <data name="&gt;&gt;lbl1_grn.Name" xml:space="preserve">
-    <value>lbl1_grn</value>
-  </data>
-  <data name="&gt;&gt;lbl1_grn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl1_grn.Parent" xml:space="preserve">
-    <value>panel_GasStation</value>
-  </data>
-  <data name="&gt;&gt;lbl1_grn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl_Quantity.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_Quantity.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9pt, style=Italic</value>
-  </data>
-  <data name="lbl_Quantity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 36</value>
-  </data>
-  <data name="lbl_Quantity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 14</value>
-  </data>
-  <data name="lbl_Quantity.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lbl_Quantity.Text" xml:space="preserve">
-    <value>л.</value>
-  </data>
-  <data name="&gt;&gt;lbl_Quantity.Name" xml:space="preserve">
-    <value>lbl_Quantity</value>
-  </data>
-  <data name="&gt;&gt;lbl_Quantity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_Quantity.Parent" xml:space="preserve">
-    <value>gb_QuantityOrSum</value>
-  </data>
-  <data name="&gt;&gt;lbl_Quantity.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl2_grn.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl2_grn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9pt, style=Italic</value>
-  </data>
-  <data name="lbl2_grn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 74</value>
-  </data>
-  <data name="lbl2_grn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 14</value>
-  </data>
-  <data name="lbl2_grn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lbl2_grn.Text" xml:space="preserve">
-    <value>грн.</value>
-  </data>
-  <data name="&gt;&gt;lbl2_grn.Name" xml:space="preserve">
-    <value>lbl2_grn</value>
-  </data>
-  <data name="&gt;&gt;lbl2_grn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl2_grn.Parent" xml:space="preserve">
-    <value>gb_QuantityOrSum</value>
-  </data>
-  <data name="&gt;&gt;lbl2_grn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tb_Sum.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 11.25pt, style=Italic</value>
-  </data>
-  <data name="tb_Sum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 62</value>
-  </data>
-  <data name="tb_Sum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 26</value>
-  </data>
-  <data name="tb_Sum.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tb_Sum.Text" xml:space="preserve">
-    <value>0.00</value>
-  </data>
-  <data name="&gt;&gt;tb_Sum.Name" xml:space="preserve">
-    <value>tb_Sum</value>
-  </data>
-  <data name="&gt;&gt;tb_Sum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tb_Sum.Parent" xml:space="preserve">
-    <value>gb_QuantityOrSum</value>
-  </data>
-  <data name="&gt;&gt;tb_Sum.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tb_Quantity.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 11.25pt, style=Italic</value>
-  </data>
-  <data name="tb_Quantity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 24</value>
-  </data>
-  <data name="tb_Quantity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 26</value>
-  </data>
-  <data name="tb_Quantity.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tb_Quantity.Text" xml:space="preserve">
-    <value>0.00</value>
-  </data>
-  <data name="&gt;&gt;tb_Quantity.Name" xml:space="preserve">
-    <value>tb_Quantity</value>
-  </data>
-  <data name="&gt;&gt;tb_Quantity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tb_Quantity.Parent" xml:space="preserve">
-    <value>gb_QuantityOrSum</value>
-  </data>
-  <data name="&gt;&gt;tb_Quantity.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="rb_Sum.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rb_Sum.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9.75pt, style=Italic</value>
-  </data>
-  <data name="rb_Sum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 65</value>
-  </data>
-  <data name="rb_Sum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
-  <data name="rb_Sum.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="rb_Sum.Text" xml:space="preserve">
-    <value>Сума</value>
-  </data>
-  <data name="&gt;&gt;rb_Sum.Name" xml:space="preserve">
-    <value>rb_Sum</value>
-  </data>
-  <data name="&gt;&gt;rb_Sum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rb_Sum.Parent" xml:space="preserve">
-    <value>gb_QuantityOrSum</value>
-  </data>
-  <data name="&gt;&gt;rb_Sum.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;lbl4_grn.Parent" xml:space="preserve">
+    <value>gb_MiniCafePay</value>
   </data>
   <data name="rb_Quantity.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="rb_Quantity.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9.75pt, style=Italic</value>
+  <data name="українськаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
   </data>
-  <data name="rb_Quantity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 27</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 61</value>
   </data>
-  <data name="rb_Quantity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 20</value>
-  </data>
-  <data name="rb_Quantity.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rb_Quantity.Text" xml:space="preserve">
-    <value>Кількість</value>
-  </data>
-  <data name="&gt;&gt;rb_Quantity.Name" xml:space="preserve">
-    <value>rb_Quantity</value>
-  </data>
-  <data name="&gt;&gt;rb_Quantity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rb_Quantity.Parent" xml:space="preserve">
-    <value>gb_QuantityOrSum</value>
-  </data>
-  <data name="&gt;&gt;rb_Quantity.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="gb_QuantityOrSum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 195</value>
-  </data>
-  <data name="gb_QuantityOrSum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>339, 100</value>
-  </data>
-  <data name="gb_QuantityOrSum.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;gb_QuantityOrSum.Name" xml:space="preserve">
-    <value>gb_QuantityOrSum</value>
-  </data>
-  <data name="&gt;&gt;gb_QuantityOrSum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_QuantityOrSum.Parent" xml:space="preserve">
-    <value>panel_GasStation</value>
-  </data>
-  <data name="&gt;&gt;gb_QuantityOrSum.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tb_PriceForFuel.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="tb_PriceForFuel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 12.75pt</value>
-  </data>
-  <data name="tb_PriceForFuel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 140</value>
-  </data>
-  <data name="tb_PriceForFuel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 28</value>
-  </data>
-  <data name="tb_PriceForFuel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tb_PriceForFuel.Name" xml:space="preserve">
-    <value>tb_PriceForFuel</value>
-  </data>
-  <data name="&gt;&gt;tb_PriceForFuel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tb_PriceForFuel.Parent" xml:space="preserve">
-    <value>panel_GasStation</value>
-  </data>
-  <data name="&gt;&gt;tb_PriceForFuel.ZOrder" xml:space="preserve">
+  <data name="lbl_MiniCafeAmount.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="lbl_PriceForFuel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="gb_TotalAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12.75pt, style=Italic</value>
   </data>
-  <data name="lbl_PriceForFuel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 143</value>
-  </data>
-  <data name="lbl_PriceForFuel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="lbl_PriceForFuel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lbl_PriceForFuel.Text" xml:space="preserve">
-    <value>Ціна</value>
-  </data>
-  <data name="&gt;&gt;lbl_PriceForFuel.Name" xml:space="preserve">
-    <value>lbl_PriceForFuel</value>
-  </data>
-  <data name="&gt;&gt;lbl_PriceForFuel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_PriceForFuel.Parent" xml:space="preserve">
-    <value>panel_GasStation</value>
-  </data>
-  <data name="&gt;&gt;lbl_PriceForFuel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lbl_Fuel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_Fuel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 62</value>
-  </data>
-  <data name="lbl_Fuel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
-  </data>
-  <data name="lbl_Fuel.TabIndex" type="System.Int32, mscorlib">
+  <data name="gb_MiniCafePay.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="lbl_Fuel.Text" xml:space="preserve">
-    <value>Бензин</value>
-  </data>
-  <data name="&gt;&gt;lbl_Fuel.Name" xml:space="preserve">
-    <value>lbl_Fuel</value>
   </data>
   <data name="&gt;&gt;lbl_Fuel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_Fuel.Parent" xml:space="preserve">
-    <value>panel_GasStation</value>
+  <data name="gb_TotalIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;lbl_Fuel.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;tb_Sum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comBx_ListOfGasolineTypes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 59</value>
+  <data name="lbl_Quantity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="comBx_ListOfGasolineTypes.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>875, 604</value>
+  </data>
+  <data name="lbl6_grn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tb_Sum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 11.25pt, style=Italic</value>
+  </data>
+  <data name="tb_PriceForFuel.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 28</value>
   </data>
-  <data name="comBx_ListOfGasolineTypes.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;panel_TotalIncome.Name" xml:space="preserve">
+    <value>panel_TotalIncome</value>
   </data>
-  <data name="&gt;&gt;comBx_ListOfGasolineTypes.Name" xml:space="preserve">
-    <value>comBx_ListOfGasolineTypes</value>
+  <data name="&gt;&gt;btn_Count.Parent" xml:space="preserve">
+    <value>tlp_GroupTotalAmountForPayment</value>
   </data>
-  <data name="&gt;&gt;comBx_ListOfGasolineTypes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.Name" xml:space="preserve">
+    <value>tlp_GroupTotalAmountForPayment</value>
   </data>
-  <data name="&gt;&gt;comBx_ListOfGasolineTypes.Parent" xml:space="preserve">
-    <value>panel_GasStation</value>
+  <data name="&gt;&gt;lbl_PriceForFuel.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;comBx_ListOfGasolineTypes.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;lbl5_grn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel_GasStation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 27</value>
-  </data>
-  <data name="panel_GasStation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 323</value>
-  </data>
-  <data name="panel_GasStation.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="tb_Quantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 24</value>
   </data>
   <data name="&gt;&gt;panel_GasStation.Name" xml:space="preserve">
     <value>panel_GasStation</value>
   </data>
-  <data name="&gt;&gt;panel_GasStation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tb_Sum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 62</value>
   </data>
-  <data name="&gt;&gt;panel_GasStation.Parent" xml:space="preserve">
-    <value>gb_GasStation</value>
+  <data name="&gt;&gt;lbl_TotalIncome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel_GasStation.ZOrder" xml:space="preserve">
+  <data name="gb_QuantityOrSum.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_PrintCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_TotalIncome.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="gb_GasStation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="tlp_TotalIncome.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="gb_GasStation.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 12.75pt, style=Italic</value>
-  </data>
-  <data name="gb_GasStation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="gb_GasStation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 456</value>
-  </data>
-  <data name="gb_GasStation.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;lbl5_grn.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="gb_GasStation.Text" xml:space="preserve">
     <value>Автозаправка</value>
   </data>
-  <data name="&gt;&gt;gb_GasStation.Name" xml:space="preserve">
-    <value>gb_GasStation</value>
+  <data name="lbl4_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;gb_GasStation.Type" xml:space="preserve">
+  <data name="lbl_Quantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 36</value>
+  </data>
+  <data name="&gt;&gt;lbl1_grn.Name" xml:space="preserve">
+    <value>lbl1_grn</value>
+  </data>
+  <data name="&gt;&gt;panel_TotalIncome.Parent" xml:space="preserve">
+    <value>gb_TotalIncome</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;comBx_ListOfGasolineTypes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tlp_TotalIncome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gb_TotalAmount.Parent" xml:space="preserve">
+    <value>tlp_GroupTotalAmounts</value>
+  </data>
+  <data name="tlp_GroupTotalAmountForPayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;gb_TotalIncome.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_GasStationAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_PriceForFuel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tb_Quantity.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl4_grn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tlp_GroupTotalAmounts.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gb_TotalAmount" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="gb_TotalIncome" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btn_PrintCheck" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,62.71947,Percent,37.28053" /&gt;&lt;Rows Styles="Percent,100,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lbl4_grn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tlp_GroupGasStationAndMiniCafe.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="&gt;&gt;panel_MiniCafe.Name" xml:space="preserve">
+    <value>panel_MiniCafe</value>
+  </data>
+  <data name="&gt;&gt;gb_TotalIncome.Parent" xml:space="preserve">
+    <value>tlp_GroupTotalAmounts</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl2_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_MiniCafeAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="lbl6_grn.Text" xml:space="preserve">
+    <value>грн.</value>
+  </data>
+  <data name="lbl3_grn.Text" xml:space="preserve">
+    <value>грн.</value>
+  </data>
+  <data name="gb_GasStationPay.Text" xml:space="preserve">
+    <value>До оплати</value>
+  </data>
+  <data name="lbl_Fuel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 35</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupTotalAmounts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalIncome.Name" xml:space="preserve">
+    <value>lbl_TotalIncome</value>
+  </data>
+  <data name="tlp_GroupGasStationAndMiniCafe.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gb_TotalIncome.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Count.Text" xml:space="preserve">
+    <value>Прорахувати</value>
+  </data>
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="lbl_GasStationAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_PrintCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gb_TotalAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl2_grn.Name" xml:space="preserve">
+    <value>lbl2_grn</value>
+  </data>
+  <data name="rb_Sum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Quantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 14</value>
+  </data>
+  <data name="&gt;&gt;rb_Quantity.Parent" xml:space="preserve">
+    <value>gb_QuantityOrSum</value>
   </data>
   <data name="&gt;&gt;gb_GasStation.Parent" xml:space="preserve">
     <value>tlp_GroupGasStationAndMiniCafe</value>
   </data>
-  <data name="&gt;&gt;gb_GasStation.ZOrder" xml:space="preserve">
+  <data name="tb_PriceForFuel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="gb_MiniCafePay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>875, 604</value>
   </data>
-  <data name="lbl4_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="&gt;&gt;gb_MiniCafePay.Name" xml:space="preserve">
+    <value>gb_MiniCafePay</value>
   </data>
-  <data name="lbl4_grn.AutoSize" type="System.Boolean, mscorlib">
+  <data name="tlp_GroupTotalAmountForPayment.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btn_Count" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbl_TotalAmount" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbl5_grn" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,21.18559,Percent,35.3102,Percent,35.3102,Percent,8.193997" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="lbl6_grn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lbl4_grn.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="tlp_TotalIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_TotalIncome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl5_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;моваToolStripMenuItem.Name" xml:space="preserve">
+    <value>моваToolStripMenuItem</value>
+  </data>
+  <data name="lbl_Fuel.Text" xml:space="preserve">
+    <value>Бензин</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel_MiniCafe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_Quantity.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gb_TotalIncome.Name" xml:space="preserve">
+    <value>gb_TotalIncome</value>
+  </data>
+  <data name="rb_Sum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt, style=Italic</value>
+  </data>
+  <data name="gb_TotalAmount.Text" xml:space="preserve">
+    <value>Всього до сплати</value>
+  </data>
+  <data name="&gt;&gt;gb_MiniCafePay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalIncome.Parent" xml:space="preserve">
+    <value>tlp_TotalIncome</value>
+  </data>
+  <data name="tlp_GroupGasStationAndMiniCafe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="lbl_GasStationAmount.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;lbl_Quantity.Name" xml:space="preserve">
+    <value>lbl_Quantity</value>
+  </data>
+  <data name="&gt;&gt;rb_Quantity.Name" xml:space="preserve">
+    <value>rb_Quantity</value>
+  </data>
+  <data name="lbl6_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="panel_TotalIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;gb_QuantityOrSum.Parent" xml:space="preserve">
+    <value>panel_GasStation</value>
+  </data>
+  <data name="&gt;&gt;lbl3_grn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tlp_GroupTotalAmountForPayment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl3_grn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl6_grn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="lbl1_grn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 127</value>
+  </data>
+  <data name="gb_GasStation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12.75pt, style=Italic</value>
+  </data>
+  <data name="gb_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 102</value>
+  </data>
+  <data name="&gt;&gt;rb_Quantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_Sum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rb_Sum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TotalAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="&gt;&gt;tb_Quantity.Name" xml:space="preserve">
+    <value>tb_Quantity</value>
+  </data>
+  <data name="gb_TotalIncome.Text" xml:space="preserve">
+    <value>Загальна сума виторгу за день</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupTotalAmounts.Name" xml:space="preserve">
+    <value>tlp_GroupTotalAmounts</value>
+  </data>
+  <data name="gb_GasStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 432</value>
+  </data>
+  <data name="panel_TotalIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_TotalIncome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 24pt, style=Italic</value>
+  </data>
+  <data name="gb_MiniCafe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 3</value>
+  </data>
+  <data name="&gt;&gt;panel_GasStation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_TotalIncome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gb_GasStationPay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gb_QuantityOrSum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_TotalAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lbl_Fuel.Name" xml:space="preserve">
+    <value>lbl_Fuel</value>
+  </data>
+  <data name="gb_GasStation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tb_Sum.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl3_grn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 9pt, style=Italic</value>
   </data>
   <data name="lbl4_grn.Location" type="System.Drawing.Point, System.Drawing">
     <value>360, 72</value>
   </data>
-  <data name="lbl4_grn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 14</value>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
-  <data name="lbl4_grn.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="gb_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 3</value>
   </data>
-  <data name="lbl4_grn.Text" xml:space="preserve">
-    <value>грн.</value>
+  <data name="gb_TotalAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
-  <data name="&gt;&gt;lbl4_grn.Name" xml:space="preserve">
-    <value>lbl4_grn</value>
+  <data name="&gt;&gt;panel_TotalAmount.Name" xml:space="preserve">
+    <value>panel_TotalAmount</value>
   </data>
-  <data name="&gt;&gt;lbl4_grn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbl2_grn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 74</value>
   </data>
-  <data name="&gt;&gt;lbl4_grn.Parent" xml:space="preserve">
-    <value>gb_MiniCafePay</value>
+  <data name="&gt;&gt;rb_Sum.Parent" xml:space="preserve">
+    <value>gb_QuantityOrSum</value>
   </data>
-  <data name="&gt;&gt;lbl4_grn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;gb_TotalAmount.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lbl_MiniCafeAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="&gt;&gt;panel_TotalAmount.Parent" xml:space="preserve">
+    <value>gb_TotalAmount</value>
   </data>
-  <data name="lbl_MiniCafeAmount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;gb_QuantityOrSum.Name" xml:space="preserve">
+    <value>gb_QuantityOrSum</value>
   </data>
-  <data name="lbl_MiniCafeAmount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 24pt, style=Italic</value>
-  </data>
-  <data name="lbl_MiniCafeAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 29</value>
-  </data>
-  <data name="lbl_MiniCafeAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 38</value>
-  </data>
-  <data name="lbl_MiniCafeAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lbl_MiniCafeAmount.Text" xml:space="preserve">
+  <data name="tb_Quantity.Text" xml:space="preserve">
     <value>0.00</value>
   </data>
-  <data name="&gt;&gt;lbl_MiniCafeAmount.Name" xml:space="preserve">
-    <value>lbl_MiniCafeAmount</value>
+  <data name="gb_GasStationPay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 100</value>
   </data>
-  <data name="&gt;&gt;lbl_MiniCafeAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbl_GasStationAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;lbl_MiniCafeAmount.Parent" xml:space="preserve">
-    <value>gb_MiniCafePay</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
-  <data name="&gt;&gt;lbl_MiniCafeAmount.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="gb_MiniCafePay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 353</value>
-  </data>
-  <data name="gb_MiniCafePay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 100</value>
-  </data>
-  <data name="gb_MiniCafePay.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gb_MiniCafePay.Text" xml:space="preserve">
-    <value>До оплати</value>
-  </data>
-  <data name="&gt;&gt;gb_MiniCafePay.Name" xml:space="preserve">
-    <value>gb_MiniCafePay</value>
-  </data>
-  <data name="&gt;&gt;gb_MiniCafePay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;comBx_ListOfGasolineTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;gb_MiniCafePay.Parent" xml:space="preserve">
     <value>gb_MiniCafe</value>
   </data>
-  <data name="&gt;&gt;gb_MiniCafePay.ZOrder" xml:space="preserve">
+  <data name="gb_QuantityOrSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 100</value>
+  </data>
+  <data name="lbl_TotalIncome.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="rb_Sum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="&gt;&gt;lbl_Quantity.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="panel_MiniCafe.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="tb_PriceForFuel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="panel_MiniCafe.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="panel_MiniCafe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 27</value>
-  </data>
-  <data name="panel_MiniCafe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>422, 323</value>
-  </data>
-  <data name="panel_MiniCafe.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel_MiniCafe.Name" xml:space="preserve">
-    <value>panel_MiniCafe</value>
-  </data>
-  <data name="&gt;&gt;panel_MiniCafe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_MiniCafe.Parent" xml:space="preserve">
-    <value>gb_MiniCafe</value>
-  </data>
-  <data name="&gt;&gt;panel_MiniCafe.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="gb_MiniCafe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="gb_MiniCafe.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 12.75pt, style=Italic</value>
-  </data>
-  <data name="gb_MiniCafe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 3</value>
-  </data>
-  <data name="gb_MiniCafe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 456</value>
-  </data>
-  <data name="gb_MiniCafe.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gb_MiniCafe.Text" xml:space="preserve">
-    <value>Міні-Кафе</value>
-  </data>
-  <data name="&gt;&gt;gb_MiniCafe.Name" xml:space="preserve">
-    <value>gb_MiniCafe</value>
-  </data>
-  <data name="&gt;&gt;gb_MiniCafe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_MiniCafe.Parent" xml:space="preserve">
-    <value>tlp_GroupGasStationAndMiniCafe</value>
-  </data>
-  <data name="&gt;&gt;gb_MiniCafe.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tlp_GroupGasStationAndMiniCafe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tlp_GroupGasStationAndMiniCafe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tlp_GroupGasStationAndMiniCafe.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tlp_GroupGasStationAndMiniCafe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>875, 462</value>
-  </data>
-  <data name="tlp_GroupGasStationAndMiniCafe.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.Name" xml:space="preserve">
-    <value>tlp_GroupGasStationAndMiniCafe</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tlp_GroupGasStationAndMiniCafe.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gb_GasStation" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="gb_MiniCafe" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btn_Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 61</value>
   </data>
   <data name="tlp_GroupTotalAmounts.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="gb_TotalAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="panel_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 67</value>
   </data>
-  <data name="panel_TotalAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="tlp_GroupTotalAmounts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;українськаToolStripMenuItem.Name" xml:space="preserve">
+    <value>українськаToolStripMenuItem</value>
   </data>
   <data name="tlp_GroupTotalAmountForPayment.ColumnCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="btn_PrintCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 24</value>
+  </data>
+  <data name="gb_GasStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="rb_Sum.Text" xml:space="preserve">
+    <value>Сума</value>
+  </data>
+  <data name="&gt;&gt;gb_GasStationPay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rb_Sum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_MiniCafeAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel_GasStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl1_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>462</value>
+  </data>
+  <data name="lbl3_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="gb_TotalIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 3</value>
+  </data>
+  <data name="rb_Quantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="tlp_GroupTotalAmounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>875, 138</value>
+  </data>
+  <data name="tlp_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btn_Count.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="gb_MiniCafe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12.75pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;btn_Count.Name" xml:space="preserve">
+    <value>btn_Count</value>
+  </data>
+  <data name="lbl_PriceForFuel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 116</value>
+  </data>
+  <data name="&gt;&gt;comBx_ListOfGasolineTypes.Parent" xml:space="preserve">
+    <value>panel_GasStation</value>
+  </data>
+  <data name="&gt;&gt;panel_GasStation.Parent" xml:space="preserve">
+    <value>gb_GasStation</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl5_grn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_PrintCheck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_MiniCafeAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;lbl6_grn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;lbl_PriceForFuel.Name" xml:space="preserve">
+    <value>lbl_PriceForFuel</value>
+  </data>
+  <data name="panel_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="&gt;&gt;українськаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_MiniCafeAmount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel_TotalAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="tlp_GroupTotalAmountForPayment.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_Fuel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gb_GasStation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rb_Quantity.Text" xml:space="preserve">
+    <value>Кількість</value>
+  </data>
+  <data name="lbl5_grn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Italic</value>
+  </data>
+  <data name="lbl_PriceForFuel.Text" xml:space="preserve">
+    <value>Ціна</value>
+  </data>
+  <data name="lbl3_grn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl2_grn.Text" xml:space="preserve">
+    <value>грн.</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="panel_MiniCafe.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lbl1_grn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gb_TotalIncome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12.75pt, style=Italic</value>
+  </data>
+  <data name="lbl_GasStationAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 29</value>
+  </data>
+  <data name="&gt;&gt;tlp_TotalIncome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel_TotalAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 67</value>
+  </data>
+  <data name="lbl5_grn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 26</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.Name" xml:space="preserve">
+    <value>tlp_GroupGasStationAndMiniCafe</value>
+  </data>
+  <data name="lbl3_grn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 72</value>
+  </data>
+  <data name="gb_QuantityOrSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 168</value>
+  </data>
+  <data name="&gt;&gt;tb_Sum.Parent" xml:space="preserve">
+    <value>gb_QuantityOrSum</value>
+  </data>
+  <data name="&gt;&gt;gb_MiniCafe.Name" xml:space="preserve">
+    <value>gb_MiniCafe</value>
+  </data>
+  <data name="lbl5_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="lbl1_grn.Text" xml:space="preserve">
+    <value>грн.</value>
+  </data>
+  <data name="lbl4_grn.Text" xml:space="preserve">
+    <value>грн.</value>
+  </data>
+  <data name="&gt;&gt;panel_MiniCafe.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl6_grn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Italic</value>
+  </data>
+  <data name="tb_PriceForFuel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12.75pt</value>
+  </data>
+  <data name="lbl4_grn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_MiniCafeAmount.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;tb_PriceForFuel.Name" xml:space="preserve">
+    <value>tb_PriceForFuel</value>
+  </data>
+  <data name="&gt;&gt;gb_GasStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tlp_GroupTotalAmountForPayment</value>
+  </data>
+  <data name="lbl1_grn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_TotalIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gb_MiniCafe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
+  </data>
+  <data name="lbl_Quantity.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_GasStationAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 24pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;lbl6_grn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_GasStationAmount.Parent" xml:space="preserve">
+    <value>gb_GasStationPay</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupTotalAmounts.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="panel_GasStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3962,472 +3989,508 @@
         OBAQScpgwLQcCAgv/9k=
 </value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="&gt;&gt;tb_Sum.Name" xml:space="preserve">
+    <value>tb_Sum</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 61</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;tb_PriceForFuel.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="gb_MiniCafe.Text" xml:space="preserve">
+    <value>Міні-Кафе</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>tlp_GroupTotalAmountForPayment</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btn_Count.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btn_Count.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="btn_Count.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 3</value>
-  </data>
-  <data name="btn_Count.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 61</value>
-  </data>
-  <data name="btn_Count.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_Count.Text" xml:space="preserve">
-    <value>Прорахувати</value>
-  </data>
-  <data name="&gt;&gt;btn_Count.Name" xml:space="preserve">
-    <value>btn_Count</value>
-  </data>
-  <data name="&gt;&gt;btn_Count.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_Count.Parent" xml:space="preserve">
-    <value>tlp_GroupTotalAmountForPayment</value>
-  </data>
-  <data name="&gt;&gt;btn_Count.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lbl_TotalAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="lbl_TotalAmount.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbl2_grn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="lbl_TotalAmount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 24pt, style=Italic</value>
-  </data>
-  <data name="lbl_TotalAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>358, 14</value>
-  </data>
-  <data name="lbl_TotalAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 38</value>
-  </data>
-  <data name="lbl_TotalAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lbl_TotalAmount.Text" xml:space="preserve">
-    <value>0.00</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalAmount.Name" xml:space="preserve">
-    <value>lbl_TotalAmount</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalAmount.Parent" xml:space="preserve">
-    <value>tlp_GroupTotalAmountForPayment</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalAmount.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lbl5_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="lbl5_grn.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl5_grn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9pt, style=Italic</value>
-  </data>
-  <data name="lbl5_grn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>506, 26</value>
-  </data>
-  <data name="lbl5_grn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 14</value>
-  </data>
-  <data name="lbl5_grn.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="lbl5_grn.Text" xml:space="preserve">
-    <value>грн.</value>
-  </data>
-  <data name="&gt;&gt;lbl5_grn.Name" xml:space="preserve">
-    <value>lbl5_grn</value>
-  </data>
-  <data name="&gt;&gt;lbl5_grn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl5_grn.Parent" xml:space="preserve">
-    <value>tlp_GroupTotalAmountForPayment</value>
-  </data>
-  <data name="&gt;&gt;lbl5_grn.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tlp_GroupTotalAmountForPayment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tlp_GroupTotalAmountForPayment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tlp_GroupTotalAmountForPayment.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tlp_GroupTotalAmountForPayment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 67</value>
-  </data>
-  <data name="tlp_GroupTotalAmountForPayment.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.Name" xml:space="preserve">
-    <value>tlp_GroupTotalAmountForPayment</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.Parent" xml:space="preserve">
-    <value>panel_TotalAmount</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tlp_GroupTotalAmountForPayment.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btn_Count" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbl_TotalAmount" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbl5_grn" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,21.18559,Percent,35.3102,Percent,35.3102,Percent,8.193997" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="panel_TotalAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 27</value>
-  </data>
-  <data name="panel_TotalAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 67</value>
-  </data>
-  <data name="panel_TotalAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel_TotalAmount.Name" xml:space="preserve">
-    <value>panel_TotalAmount</value>
-  </data>
-  <data name="&gt;&gt;panel_TotalAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_TotalAmount.Parent" xml:space="preserve">
-    <value>gb_TotalAmount</value>
-  </data>
-  <data name="&gt;&gt;panel_TotalAmount.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="gb_TotalAmount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 12.75pt, style=Italic</value>
-  </data>
-  <data name="gb_TotalAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="gb_TotalAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>559, 102</value>
-  </data>
-  <data name="gb_TotalAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="gb_TotalAmount.Text" xml:space="preserve">
-    <value>Всього до сплати</value>
   </data>
   <data name="&gt;&gt;gb_TotalAmount.Name" xml:space="preserve">
     <value>gb_TotalAmount</value>
   </data>
-  <data name="&gt;&gt;gb_TotalAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_TotalAmount.Parent" xml:space="preserve">
-    <value>tlp_GroupTotalAmounts</value>
-  </data>
-  <data name="&gt;&gt;gb_TotalAmount.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panel_TotalIncome.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="gb_TotalIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="panel_TotalIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="tlp_TotalIncome.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lbl6_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="lbl6_grn.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl6_grn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9pt, style=Italic</value>
-  </data>
-  <data name="lbl6_grn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 26</value>
-  </data>
-  <data name="lbl6_grn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 14</value>
-  </data>
-  <data name="lbl6_grn.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lbl6_grn.Text" xml:space="preserve">
-    <value>грн.</value>
-  </data>
-  <data name="&gt;&gt;lbl6_grn.Name" xml:space="preserve">
-    <value>lbl6_grn</value>
-  </data>
-  <data name="&gt;&gt;lbl6_grn.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbl_GasStationAmount.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl6_grn.Parent" xml:space="preserve">
-    <value>tlp_TotalIncome</value>
+  <data name="lbl5_grn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;lbl6_grn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lbl_TotalIncome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="tb_Sum.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="lbl_TotalIncome.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tlp_GroupGasStationAndMiniCafe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>875, 438</value>
   </data>
-  <data name="lbl_TotalIncome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 24pt, style=Italic</value>
+  <data name="panel_GasStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 299</value>
   </data>
-  <data name="lbl_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 14</value>
+  <data name="моваToolStripMenuItem.Text" xml:space="preserve">
+    <value>Мова</value>
   </data>
-  <data name="lbl_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 38</value>
+  <data name="panel_MiniCafe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
   </data>
-  <data name="lbl_TotalIncome.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="lbl_TotalIncome.Text" xml:space="preserve">
-    <value>0.00</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalIncome.Name" xml:space="preserve">
-    <value>lbl_TotalIncome</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalIncome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalIncome.Parent" xml:space="preserve">
-    <value>tlp_TotalIncome</value>
-  </data>
-  <data name="&gt;&gt;lbl_TotalIncome.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tlp_TotalIncome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="tlp_GroupGasStationAndMiniCafe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tlp_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;comBx_ListOfGasolineTypes.Name" xml:space="preserve">
+    <value>comBx_ListOfGasolineTypes</value>
   </data>
-  <data name="tlp_TotalIncome.RowCount" type="System.Int32, mscorlib">
+  <data name="lbl2_grn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Italic</value>
+  </data>
+  <data name="gb_MiniCafePay.Text" xml:space="preserve">
+    <value>До оплати</value>
+  </data>
+  <data name="splitContainer1.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CashierForm</value>
+  </data>
+  <data name="gb_GasStationPay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 329</value>
+  </data>
+  <data name="gb_MiniCafePay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_Quantity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;btn_PrintCheck.Name" xml:space="preserve">
+    <value>btn_PrintCheck</value>
+  </data>
+  <data name="gb_TotalAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 102</value>
+  </data>
+  <data name="&gt;&gt;gb_QuantityOrSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_MiniCafe.Parent" xml:space="preserve">
+    <value>tlp_GroupGasStationAndMiniCafe</value>
+  </data>
+  <data name="tlp_GroupTotalAmounts.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gb_MiniCafe.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tlp_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 67</value>
+  <data name="&gt;&gt;rb_Sum.Name" xml:space="preserve">
+    <value>rb_Sum</value>
   </data>
-  <data name="tlp_TotalIncome.TabIndex" type="System.Int32, mscorlib">
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Fuel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl2_grn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gb_GasStationPay.Name" xml:space="preserve">
+    <value>gb_GasStationPay</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>875, 24</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="comBx_ListOfGasolineTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_MiniCafeAmount.Name" xml:space="preserve">
+    <value>lbl_MiniCafeAmount</value>
+  </data>
+  <data name="gb_MiniCafePay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 329</value>
+  </data>
+  <data name="btn_Count.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Каса</value>
+  </data>
+  <data name="lbl5_grn.Text" xml:space="preserve">
+    <value>грн.</value>
+  </data>
+  <data name="&gt;&gt;tb_PriceForFuel.Parent" xml:space="preserve">
+    <value>panel_GasStation</value>
+  </data>
+  <data name="lbl_Fuel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gb_GasStationPay.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalAmount.Parent" xml:space="preserve">
+    <value>tlp_GroupTotalAmountForPayment</value>
+  </data>
+  <data name="lbl_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 14</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;моваToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tlp_TotalIncome.Name" xml:space="preserve">
     <value>tlp_TotalIncome</value>
   </data>
-  <data name="&gt;&gt;tlp_TotalIncome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gb_MiniCafe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 432</value>
+  </data>
+  <data name="panel_GasStation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tb_PriceForFuel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 113</value>
+  </data>
+  <data name="gb_GasStation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tb_Quantity.Parent" xml:space="preserve">
+    <value>gb_QuantityOrSum</value>
+  </data>
+  <data name="btn_Count.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel_TotalAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gb_MiniCafe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalIncome.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_TotalAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;tlp_TotalIncome.Parent" xml:space="preserve">
     <value>panel_TotalIncome</value>
   </data>
-  <data name="&gt;&gt;tlp_TotalIncome.ZOrder" xml:space="preserve">
+  <data name="українськаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Українська</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tb_Quantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 26</value>
+  </data>
+  <data name="tb_Quantity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 11.25pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;lbl_Quantity.Parent" xml:space="preserve">
+    <value>gb_QuantityOrSum</value>
+  </data>
+  <data name="&gt;&gt;lbl6_grn.Name" xml:space="preserve">
+    <value>lbl6_grn</value>
+  </data>
+  <data name="lbl2_grn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_GasStationAmount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl4_grn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Italic</value>
+  </data>
+  <data name="tlp_GroupGasStationAndMiniCafe.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gb_GasStation" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="gb_MiniCafe" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lbl_PriceForFuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="panel_GasStation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rb_Sum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="comBx_ListOfGasolineTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupGasStationAndMiniCafe.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lbl3_grn.Parent" xml:space="preserve">
+    <value>gb_GasStationPay</value>
+  </data>
+  <data name="lbl_TotalAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 14</value>
+  </data>
+  <data name="tlp_GroupTotalAmounts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl2_grn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Quantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl1_grn.Parent" xml:space="preserve">
+    <value>panel_GasStation</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalAmount.Name" xml:space="preserve">
+    <value>lbl_TotalAmount</value>
+  </data>
+  <data name="comBx_ListOfGasolineTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="tlp_GroupTotalAmountForPayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 67</value>
+  </data>
+  <data name="&gt;&gt;lbl_MiniCafeAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl2_grn.Parent" xml:space="preserve">
+    <value>gb_QuantityOrSum</value>
+  </data>
+  <data name="lbl_MiniCafeAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 29</value>
+  </data>
+  <data name="&gt;&gt;gb_MiniCafePay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tlp_GroupGasStationAndMiniCafe.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gb_GasStationPay.Parent" xml:space="preserve">
+    <value>gb_GasStation</value>
+  </data>
+  <data name="lbl_TotalAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btn_PrintCheck.Parent" xml:space="preserve">
+    <value>tlp_GroupTotalAmounts</value>
+  </data>
+  <data name="lbl1_grn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rb_Quantity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt, style=Italic</value>
+  </data>
+  <data name="lbl_MiniCafeAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 24pt, style=Italic</value>
+  </data>
+  <data name="tb_Quantity.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_PriceForFuel.Parent" xml:space="preserve">
+    <value>panel_GasStation</value>
+  </data>
+  <data name="&gt;&gt;lbl_Fuel.Parent" xml:space="preserve">
+    <value>panel_GasStation</value>
+  </data>
+  <data name="tlp_TotalIncome.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl5_grn.Parent" xml:space="preserve">
+    <value>tlp_GroupTotalAmountForPayment</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.Parent" xml:space="preserve">
+    <value>panel_TotalAmount</value>
+  </data>
+  <data name="&gt;&gt;tb_Quantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_PrintCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 111</value>
+  </data>
+  <data name="&gt;&gt;lbl6_grn.Parent" xml:space="preserve">
+    <value>tlp_TotalIncome</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="моваToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="&gt;&gt;tb_PriceForFuel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tlp_GroupTotalAmounts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lbl_GasStationAmount.Name" xml:space="preserve">
+    <value>lbl_GasStationAmount</value>
+  </data>
+  <data name="&gt;&gt;lbl_PriceForFuel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_MiniCafe.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>891, 643</value>
+  </data>
+  <data name="&gt;&gt;lbl_MiniCafeAmount.Parent" xml:space="preserve">
+    <value>gb_MiniCafePay</value>
+  </data>
+  <data name="&gt;&gt;gb_MiniCafe.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gb_GasStation.Name" xml:space="preserve">
+    <value>gb_GasStation</value>
+  </data>
+  <data name="lbl_TotalAmount.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;panel_MiniCafe.Parent" xml:space="preserve">
+    <value>gb_MiniCafe</value>
+  </data>
+  <data name="&gt;&gt;lbl5_grn.Name" xml:space="preserve">
+    <value>lbl5_grn</value>
+  </data>
+  <data name="rb_Quantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="&gt;&gt;btn_PrintCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="panel_MiniCafe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 299</value>
+  </data>
+  <data name="gb_MiniCafePay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 100</value>
+  </data>
+  <data name="&gt;&gt;lbl4_grn.Name" xml:space="preserve">
+    <value>lbl4_grn</value>
+  </data>
+  <data name="panel_MiniCafe.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl3_grn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_TotalAmount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl3_grn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;tlp_TotalIncome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TotalAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl1_grn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl4_grn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl4_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="tlp_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 67</value>
+  </data>
+  <data name="&gt;&gt;btn_Count.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Quantity.Text" xml:space="preserve">
+    <value>л.</value>
+  </data>
+  <data name="lbl6_grn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="tlp_GroupTotalAmountForPayment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbl1_grn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;gb_TotalAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_PrintCheck.Text" xml:space="preserve">
+    <value>Чек</value>
+  </data>
+  <data name="&gt;&gt;lbl3_grn.Name" xml:space="preserve">
+    <value>lbl3_grn</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalAmount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tb_Sum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 26</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;btn_Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_TotalAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_GasStationAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;tlp_GroupTotalAmountForPayment.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="tlp_TotalIncome.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lbl6_grn" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbl_TotalIncome" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,84.38107,Percent,15.61893" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="panel_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 27</value>
-  </data>
-  <data name="panel_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 67</value>
-  </data>
-  <data name="panel_TotalIncome.TabIndex" type="System.Int32, mscorlib">
+  <data name="rb_Quantity.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;panel_TotalIncome.Name" xml:space="preserve">
-    <value>panel_TotalIncome</value>
+  <data name="lbl_PriceForFuel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;panel_TotalIncome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_TotalIncome.Parent" xml:space="preserve">
-    <value>gb_TotalIncome</value>
-  </data>
-  <data name="&gt;&gt;panel_TotalIncome.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="gb_TotalIncome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 12.75pt, style=Italic</value>
-  </data>
-  <data name="gb_TotalIncome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>568, 3</value>
-  </data>
-  <data name="gb_TotalIncome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 102</value>
-  </data>
-  <data name="gb_TotalIncome.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gb_TotalIncome.Text" xml:space="preserve">
-    <value>Загальна сума виторгу за день</value>
-  </data>
-  <data name="&gt;&gt;gb_TotalIncome.Name" xml:space="preserve">
-    <value>gb_TotalIncome</value>
-  </data>
-  <data name="&gt;&gt;gb_TotalIncome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_TotalIncome.Parent" xml:space="preserve">
-    <value>tlp_GroupTotalAmounts</value>
-  </data>
-  <data name="&gt;&gt;gb_TotalIncome.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_PrintCheck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="panel_TotalAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="btn_PrintCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>568, 111</value>
-  </data>
-  <data name="btn_PrintCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 24</value>
-  </data>
-  <data name="btn_PrintCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btn_PrintCheck.Text" xml:space="preserve">
-    <value>Чек</value>
-  </data>
-  <data name="btn_PrintCheck.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btn_PrintCheck.Name" xml:space="preserve">
-    <value>btn_PrintCheck</value>
-  </data>
-  <data name="&gt;&gt;btn_PrintCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_PrintCheck.Parent" xml:space="preserve">
-    <value>tlp_GroupTotalAmounts</value>
-  </data>
-  <data name="&gt;&gt;btn_PrintCheck.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tlp_GroupTotalAmounts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tlp_GroupTotalAmounts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tlp_GroupTotalAmounts.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tlp_GroupTotalAmounts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>875, 138</value>
-  </data>
-  <data name="tlp_GroupTotalAmounts.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupTotalAmounts.Name" xml:space="preserve">
-    <value>tlp_GroupTotalAmounts</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupTotalAmounts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlp_GroupTotalAmounts.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
+  <data name="&gt;&gt;rb_Sum.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;tlp_GroupTotalAmounts.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tlp_GroupTotalAmounts.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gb_TotalAmount" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="gb_TotalIncome" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btn_PrintCheck" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,64.60283,Percent,35.39717" /&gt;&lt;Rows Styles="Percent,100,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>875, 604</value>
-  </data>
-  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>462</value>
-  </data>
-  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>875, 604</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>891, 643</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Каса</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>CashierForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

@@ -26,9 +26,16 @@ namespace BestOil
 		public DialogResult ShowDialog(BindingList<Goods> list)
 		{
 			_listGoods = list;
+			string tmp = "";
+
+			if (Program.Language == "")
+				tmp = "грн.";
+			else if (Program.Language == "en")
+				tmp = "UAH";
+
 			for (int i = 0; i < list.Count; i++)
 			{
-				_listStrings.Add(list[i].ProductName + $" ({list[i].Price} грн.)");
+				_listStrings.Add(list[i].ProductName + $" ({list[i].Price}" + tmp + ".)");
 			}
 			comboBox1.DataSource = _listStrings;
 			return ShowDialog();
@@ -44,9 +51,24 @@ namespace BestOil
 
 		private void button1_Click(object sender, EventArgs e)
 		{
+			string tmp1 = "";
+			string tmp2 = "";
+
+			if (Program.Language == "")
+			{
+				tmp1 = "Будь-яке поле не може бути пустим!";
+				tmp2 = "Попередження";
+			}
+			else if (Program.Language == "en")
+			{
+				tmp1 = "Any field cannot be empty!";
+				tmp2 = "Warning";
+			}
+
+
 			if (txtB_Name.Text == "" || txtB_Price.Text == "")
 			{
-				MessageBox.Show("Будь-яке поле не може бути пустим!", "Попередження", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				MessageBox.Show(tmp1, tmp2, MessageBoxButtons.OK, MessageBoxIcon.Warning);
 				return;
 			}
 

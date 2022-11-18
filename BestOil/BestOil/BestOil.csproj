@@ -37,6 +37,7 @@
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,6 +68,7 @@
     <Compile Include="CashierForm.Designer.cs">
       <DependentUpon>CashierForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeLanguage.cs" />
     <Compile Include="DeleteGoodsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,20 +92,38 @@
     <Compile Include="ProductControl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddingGoodsForm.en.resx">
+      <DependentUpon>AddingGoodsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddingGoodsForm.resx">
       <DependentUpon>AddingGoodsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm.en.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CashierForm.en.resx">
+      <DependentUpon>CashierForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CashierForm.resx">
       <DependentUpon>CashierForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteGoodsForm.en.resx">
+      <DependentUpon>DeleteGoodsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeleteGoodsForm.resx">
       <DependentUpon>DeleteGoodsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditingGoodsForm.en.resx">
+      <DependentUpon>EditingGoodsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditingGoodsForm.resx">
       <DependentUpon>EditingGoodsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.en.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

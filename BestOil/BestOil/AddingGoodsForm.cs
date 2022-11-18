@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BestOil
@@ -24,12 +25,27 @@ namespace BestOil
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			if (txtB_Name.Text == "" || txtB_Price.Text == "")
+			string tmp1 = "";
+			string tmp2 = "";
+
+			if (Program.Language == "")
 			{
-				MessageBox.Show("Будь-яке поле не може бути пустим!", "Попередження", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-				return;
+				tmp1 = "Будь-яке поле не може бути пустим!";
+				tmp2 = "Попередження";
+			}
+			else if (Program.Language == "en")
+			{
+				tmp1 = "Any field cannot be empty!";
+				tmp2 = "Warning";
 			}
 
+
+			if (txtB_Name.Text == "" || txtB_Price.Text == "")
+			{
+				MessageBox.Show(tmp1, tmp2, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			}
+			
 			GoodsName = txtB_Name.Text;
 			GoodsPrice = txtB_Price.Text;
 
