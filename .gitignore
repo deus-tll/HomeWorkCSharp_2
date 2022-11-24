@@ -6,14 +6,6 @@
 *.user
 *.sln.docstates
 
-# Build results
-[Rr]elease/
-[Rr]eleases/
-x64/
-build/
-bld/
-[Oo]bj/
-
 # Roslyn cache directories
 *.ide/
 
