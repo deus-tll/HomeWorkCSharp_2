@@ -15,6 +15,8 @@ namespace clock
 		int minute;
 		int second;
 
+		int[] arrowCoords;
+
 		Timer t = new Timer();
 
 		public Form1()
@@ -31,16 +33,10 @@ namespace clock
 		}
 
 
-		private int[] CoordsOfSecMin(int value, double arrowlength)
-		{
-			return Coords(value *= 6, arrowlength);
-		}
+		private int[] CoordsOfSecMin(int value, double arrowlength) => Coords(value *= 6, arrowlength);
 
-		private int[] CoordsOfHours(int hours, int minutes, double arrowLength)
-		{
-			return Coords((int)((hours * 30) + (minutes * 0.5)), arrowLength);
-		}
-
+		private int[] CoordsOfHours(int hours, int minutes, double arrowLength) => Coords((int)((hours * 30) + (minutes * 0.5)), arrowLength);
+		
 
 		private int[] Coords(int value, double arrowlength)
 		{
@@ -63,11 +59,7 @@ namespace clock
 
 		private void t_Tick(object sender, EventArgs e)
 		{
-			hour = DateTime.Now.Hour;
-			minute = DateTime.Now.Minute;
-			second = DateTime.Now.Second;
-
-			int[] arrowCoords;
+			UpdateTime();
 
 			Graphics g = pictureBox1.CreateGraphics();
 			g.SmoothingMode = SmoothingMode.HighQuality;
@@ -95,6 +87,13 @@ namespace clock
 			return p;
 		}
 
+		private void UpdateTime()
+		{
+			hour = DateTime.Now.Hour;
+			minute = DateTime.Now.Minute;
+			second = DateTime.Now.Second;
+		}
+
 		private void resizeArrows()
 		{
 			center_x = pictureBox1.Width / 2;
@@ -119,10 +118,8 @@ namespace clock
 		}
 
 
-		private void Form1_Resize(object sender, System.EventArgs e)
-		{
-			resizeArrows();
-		}
+		private void Form1_Resize(object sender, System.EventArgs e) => resizeArrows();
+		
 
 		
 	}
