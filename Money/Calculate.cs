@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Money
+﻿namespace Money
 {
 	public class Calculate
 	{
@@ -18,6 +12,7 @@ namespace Money
 		private void AddF(int f)
 		{
 			int tmp = _f + f;
+
 			if (tmp == 100)
 			{
 				++_p;
