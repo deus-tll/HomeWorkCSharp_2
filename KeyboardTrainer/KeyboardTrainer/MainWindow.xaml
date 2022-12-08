@@ -76,7 +76,7 @@
         </Grid>
         <Grid Grid.Row="3">
             <StackPanel x:Name="stackPanel_UpperCaseAndAdditionalSymbols" Visibility="Collapsed">
-                <StackPanel x:Name="stackPanel_ShiftAdditionalSymbols" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="50">
                         <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="30" HorizontalAlignment="Center" Text="~" VerticalAlignment="Center"/>
@@ -148,7 +148,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_UppercaseFirstLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="75">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Tab" VerticalAlignment="Center"/>
@@ -220,7 +220,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_UppercaseSecondLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="100">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Caps Lock" VerticalAlignment="Center"/>
@@ -287,7 +287,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_UppercaseThirdLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="125">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Shift" VerticalAlignment="Center"/>
@@ -349,7 +349,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_UppercaseFourthLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="75">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Ctrl" VerticalAlignment="Center"/>
@@ -388,7 +388,7 @@
                 </StackPanel>
             </StackPanel>
             <StackPanel x:Name="stackPanel_LowerCaseAndAdditionalSymbols">
-                <StackPanel x:Name="stackPanel_AdditionalSymbolsAndNumbers" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="50">
                         <Border Background="#FFF07795" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="30" HorizontalAlignment="Center" Text="`" VerticalAlignment="Center"/>
@@ -460,7 +460,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_LowerFirstLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="75">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Tab" VerticalAlignment="Center"/>
@@ -532,7 +532,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_LowerSecondLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="100">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Caps Lock" VerticalAlignment="Center"/>
@@ -599,7 +599,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_LowerThirdLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="125">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Shift" VerticalAlignment="Center"/>
@@ -661,7 +661,7 @@
                         </Border>
                     </Grid>
                 </StackPanel>
-                <StackPanel x:Name="stackPanel_LowerFourthLine" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Grid Height="50" Width="75">
                         <Border Background="#FFB5B5B5" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="2">
                             <TextBlock FontSize="15" HorizontalAlignment="Center" Text="Ctrl" VerticalAlignment="Center"/>
