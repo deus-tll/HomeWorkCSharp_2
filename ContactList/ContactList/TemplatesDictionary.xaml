@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ControlTemplate TargetType="Button" x:Key="ButtonTemplate">
+        <Border Name="border"
+                BorderBrush="#FF707070"
+                BorderThickness="3"
+                CornerRadius="2"
+                Background="#FA167F99"
+                Margin="5">
+
+            <ContentControl Name="content"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="10"
+                            Foreground="{TemplateBinding Foreground}">
+                <ContentPresenter Content="{TemplateBinding Content}"/>
+            </ContentControl>
+        </Border>
+
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="border" Property="Background" Value="#FA167F90"/>
+                <Setter TargetName="border" Property="BorderBrush" Value="#FF838383"/>
+            </Trigger>
+
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="border" Property="Background" Value="#FF838383"/>
+                <Setter TargetName="border" Property="BorderBrush" Value="DarkGray"/>
+            </Trigger>
+
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"/>
+                    <Condition Property="IsPressed" Value="True"/>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter TargetName="border" Property="Background" Value="#FF2C628B"/>
+                    <Setter TargetName="border" Property="BorderBrush" Value="#FF2C628B"/>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+</ResourceDictionary>
