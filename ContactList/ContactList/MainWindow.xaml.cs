@@ -28,11 +28,6 @@ namespace ContactList
 			ug_InputInfo.SetBinding(DataContextProperty, _binding);
 		}
 
-		private void ReDraw()
-		{
-			
-		}
-
 		private void btn_Back_Click(object sender, RoutedEventArgs e)
 		{
 			grid_AddEditContact.Visibility = Visibility.Collapsed;
