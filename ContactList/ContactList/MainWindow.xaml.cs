@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using System.Windows.Media;
+using System.Windows.Shapes;
 
 namespace ContactList
 {
@@ -23,6 +26,11 @@ namespace ContactList
 			_binding = new Binding("SelectedItem");
 			_binding.ElementName = "lb_listContacts";
 			ug_InputInfo.SetBinding(DataContextProperty, _binding);
+		}
+
+		private void ReDraw()
+		{
+			
 		}
 
 		private void btn_Back_Click(object sender, RoutedEventArgs e)
@@ -90,6 +98,13 @@ namespace ContactList
 		{
 			_fileIOService = new FileIOService(PATH);
 
+			LoadData();
+
+			BindingProvider();
+		}
+
+		private void LoadData()
+		{
 			try
 			{
 				_contactStorage = new ContactStorage(_fileIOService.LoadData());
@@ -99,7 +114,10 @@ namespace ContactList
 				MessageBox.Show(ex.Message);
 				Close();
 			}
+		}
 
+		private void BindingProvider()
+		{
 			ObjectDataProvider provider = new ObjectDataProvider
 			{
 				ObjectInstance = _contactStorage,
@@ -128,6 +146,16 @@ namespace ContactList
 					MessageBox.Show(ex.Message);
 					Close();
 				}
+			}
+		}
+
+		private void lb_listContacts_SizeChanged(object sender, SizeChangedEventArgs e)
+		{
+			if (_contactStorage != null)
+			{
+				LoadData();
+
+				BindingProvider();
 			}
 		}
 	}

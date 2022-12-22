@@ -4,7 +4,7 @@ namespace ContactList
 {
 	public class ContactStorage
 	{
-		private BindingList<Contact> _contacts;
+		private readonly BindingList<Contact> _contacts;
 
 		public ContactStorage(BindingList<Contact> contacts)
 		{

@@ -9,6 +9,8 @@ namespace ContactList
 		private string _name;
 		private string _number;
 		private string _telegramNick;
+
+
 		public DateTime DateOfAdding { get; set; } = DateTime.Now;
 
 

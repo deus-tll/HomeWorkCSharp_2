@@ -38,17 +38,27 @@
 					 Grid.Row="0"
 					 Margin="10"
 					 HorizontalContentAlignment="Stretch"
-                     Background="PeachPuff">
+                     Background="PeachPuff"
+                     SizeChanged="lb_listContacts_SizeChanged">
 
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Border BorderBrush="CadetBlue" BorderThickness="1.5" CornerRadius="3">
-                            <StackPanel Orientation="Vertical">
-                                <TextBlock Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" Margin="3"/>
-                                <TextBlock Text="{Binding Path=Number, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" FontStyle="Oblique" Margin="3"/>
-                                <TextBlock Text="{Binding Path=TelegramNick, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" FontStyle="Oblique" Margin="3"/>
-                                <TextBlock Text="{Binding Path=DateOfAdding, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" FontWeight="Bold" Margin="3"/>
-                            </StackPanel>
+                            <Grid x:Name="grid">
+
+                                <Line Style="{StaticResource LineStyle}" 
+                                      X1="2"
+                                      Y1="2"
+                                      X2="{Binding ElementName=grid, Path=ActualWidth}"
+                                      Y2="2"/>
+
+                                <StackPanel Orientation="Vertical">
+                                    <TextBlock Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" Margin="3"/>
+                                    <TextBlock Text="{Binding Path=Number, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" FontStyle="Oblique" Margin="3"/>
+                                    <TextBlock Text="{Binding Path=TelegramNick, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" FontStyle="Oblique" Margin="3"/>
+                                    <TextBlock Text="{Binding Path=DateOfAdding, UpdateSourceTrigger=PropertyChanged}" FontFamily="Cascadia Mono" FontWeight="Bold" Margin="3"/>
+                                </StackPanel>
+                            </Grid>
                         </Border>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
